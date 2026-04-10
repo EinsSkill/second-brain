@@ -5,6 +5,24 @@
 
 ---
 
+## [2026-04-10] update | Obsidian Git Sync + Graph-Vernetzung + Psych-Modus
+
+**Was passiert ist:**
+- Graph-Problem gelöst: alle Notes haben jetzt bidirektionale `[[Wikilinks]]` – kein Node mehr isoliert
+  - TASKS.md, Mein_Profil, Prompt-Vorlagen, Daily-Note-Vorlage, alle 6 SKILL-Dateien, architecture.md, Projektgeruest_KI_System vernetzt
+- Obsidian Git eingerichtet: Second Brain läuft jetzt auf GitHub (https://github.com/EinsSkill/second-brain)
+  - Auto-Sync alle 10 Minuten (commit-and-sync + pull)
+- GitJournal auf Android eingerichtet → Second Brain auch vom Handy lesbar
+- Neue Dauerregel: bei jeder neuen/geänderten Note automatisch Wikilinks setzen
+- Neuer Modus aktiviert: laufende Psychologische Analyse parallel zu allen Gesprächen (Option C)
+  - Muster und Verhalten werden auch dann analysiert wenn wir an anderen Themen arbeiten
+  - Erkenntnisse fließen automatisch in Mein_Profil_Psychologische_Analyse.md ein
+
+**Psychologische Beobachtung heute:**
+- Lukes hat heute konsequent durchgezogen: GitHub-Setup, Fehler getroffen, nicht aufgehört, gelöst. Klassisches Resilienz-Muster in Aktion – aber er hat es wahrscheinlich nicht als Erfolg wahrgenommen.
+
+---
+
 ## [2026-04-10] lint | Wöchentliche Strukturpflege
 
 **Geprüft:**
