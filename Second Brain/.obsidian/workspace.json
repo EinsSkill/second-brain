@@ -1,0 +1,221 @@
+{
+  "main": {
+    "id": "e261d0525c33cd3a",
+    "type": "split",
+    "children": [
+      {
+        "id": "75c77abc4612cbb2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dc903ff2b2675de2",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph-Ansicht"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e03536485ebc8e31",
+    "type": "split",
+    "children": [
+      {
+        "id": "bec4b0c8e802687f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "10ccd5e044e60f53",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Dateiexplorer"
+            }
+          },
+          {
+            "id": "5582e8f346e9f9cd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Suchen"
+            }
+          },
+          {
+            "id": "f9892f21d8672081",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Lesezeichen"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d84d8593de8ab9ac",
+    "type": "split",
+    "children": [
+      {
+        "id": "f803898fd41ac577",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9cf9a9179ba63f53",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Rückverweise"
+            }
+          },
+          {
+            "id": "a2009f36b27ac7da",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Ausgehende Links"
+            }
+          },
+          {
+            "id": "e5a5fb8dcef0d54b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "93f9b95fdf5db674",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Alle Eigenschaften"
+            }
+          },
+          {
+            "id": "d7764a09c3c5d98d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": true,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Gliederung"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 277.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "audio-recorder:Audioaufzeichnung starten/stoppen": false,
+      "switcher:Schnellauswahl öffnen": false,
+      "graph:Graph-Ansicht öffnen": false,
+      "canvas:Neuen Canvas erstellen": false,
+      "daily-notes:Heutige Notiz öffnen": false,
+      "templates:Vorlage einfügen": false,
+      "command-palette:Befehlspalette öffnen": false,
+      "bases:Neue Base erstellen": false,
+      "terminal:Open terminal": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "dc903ff2b2675de2",
+  "lastOpenFiles": [
+    "_System/Projektgeruest_KI_System.md.tmp.10128.1775833411177",
+    "TASKS.md",
+    "Ressourcen/Daily-Note-Vorlage.md.tmp.10128.1775833346558",
+    "Ressourcen/Prompt-Vorlagen.md.tmp.10128.1775833337339",
+    "Selbstentwicklung/Mein_Profil_Psychologische_Analyse.md.tmp.10128.1775833328131",
+    "TASKS.md.tmp.10128.1775833312375",
+    "_System/log.md.tmp.9638.1775833277760",
+    "_System/index.md.tmp.9638.1775833266605",
+    "_System/index.md.tmp.9638.1775833262742",
+    "TASKS.md.tmp.9638.1775833250356",
+    "TASKS.md.tmp.9638.1775833247081",
+    "TASKS.md.tmp.9638.1775833242818",
+    "Ressourcen/GitHub-Skills/frontend-design/SKILL.md",
+    "Business/Aktionen/Lukes_Daily.md",
+    "_System/Bereich1_Claude_KI_Tools.md",
+    "_System/Projektgeruest_KI_System.md",
+    "Selbstentwicklung/Tagesreflexion/README.md",
+    "Business/Aktionen/README.md",
+    "Business/Recherche/README.md",
+    "Business/Ideen/README.md",
+    "Ausbildung/NX Logistics/README.md",
+    "Ausbildung/Berufsschule/README.md",
+    "Inbox/README.md",
+    "CLAUDE.md",
+    "_System/index.md",
+    "Business/Lukes_Daily.md",
+    "Ressourcen/GitHub-Skills/README.md",
+    "Ressourcen/Obsidian-Beautification-Guide.md",
+    "Ressourcen/GitHub-Skills/theme-factory/SKILL.md",
+    "Ressourcen/GitHub-Skills/obsidian-second-brain/architecture.md",
+    "Ressourcen/GitHub-Skills/obsidian-second-brain/SKILL.md",
+    "Ressourcen/GitHub-Skills/file-organizer/SKILL.md",
+    "Ressourcen/GitHub-Skills/doc-coauthoring/SKILL.md",
+    "Ressourcen/GitHub-Skills/web-artifacts-builder/SKILL.md",
+    "KI Guide – Grundlagen.md",
+    "Skills/frontend-design-SKILL.md"
+  ]
+}
