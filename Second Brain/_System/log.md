@@ -5,6 +5,18 @@
 
 ---
 
+## [2026-04-13] lint | Wöchentliche Strukturpflege
+
+**Geprüft:**
+- 35 Dateien gescannt
+- 1 Problem gefunden (Seitenanzahl in index.md)
+
+**Änderungen:**
+- index.md: Seitenanzahl korrigiert von 18 → 17 (tatsächlicher Stand: 17 echte Wiki-Seiten)
+- index.md: Datum auf 2026-04-13 aktualisiert
+
+---
+
 ## [2026-04-10] update | Obsidian Git Sync + Graph-Vernetzung + Psych-Modus
 
 **Was passiert ist:**

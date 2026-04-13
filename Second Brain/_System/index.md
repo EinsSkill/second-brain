@@ -1,7 +1,7 @@
 # 📚 Wiki Index – Lukes' Second Brain
 
 *Katalog aller Seiten. Von Claude gepflegt. Bei jeder Änderung aktualisieren.*
-*Zuletzt aktualisiert: 2026-04-10 (wöchentlicher Lint)*
+*Zuletzt aktualisiert: 2026-04-13 (wöchentlicher Lint)*
 
 ---
 
@@ -60,10 +60,10 @@
 
 ## 📊 Statistik
 
-- **Seiten gesamt:** 18
+- **Seiten gesamt:** 17
 - **Bereiche befüllt:** System, Business, Selbstentwicklung, Ressourcen
 - **Bereiche leer (wachsen mit Nutzung):** Ausbildung, Tagesreflexion, Business/Ideen, Business/Recherche
-- **Letzte Aktivität:** 2026-04-10 – Wöchentlicher Lint (frontend-design Skill verschoben, TASKS aufgeräumt)
+- **Letzte Aktivität:** 2026-04-13 – Wöchentlicher Lint (Seitenanzahl korrigiert 18→17, keine Strukturprobleme)
 
 ---
 
