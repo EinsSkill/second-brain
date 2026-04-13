@@ -1,0 +1,1285 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CALISTHENICS — Dein Körper. Deine Kraft.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --glass-bg: rgba(255, 255, 255, 0.05);
+      --glass-border: rgba(255, 255, 255, 0.12);
+      --glass-hover: rgba(255, 255, 255, 0.09);
+      --accent-1: #7c3aed;
+      --accent-2: #06b6d4;
+      --accent-3: #f59e0b;
+      --text-primary: rgba(255,255,255,0.95);
+      --text-secondary: rgba(255,255,255,0.55);
+      --text-muted: rgba(255,255,255,0.3);
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #060612;
+      color: var(--text-primary);
+      overflow-x: hidden;
+      min-height: 100vh;
+    }
+
+    /* ─── ANIMATED BACKGROUND ─── */
+    .bg-canvas {
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+      overflow: hidden;
+    }
+    .bg-canvas::before {
+      content: '';
+      position: absolute;
+      width: 900px; height: 900px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(124,58,237,0.35) 0%, transparent 70%);
+      top: -200px; left: -300px;
+      animation: float1 14s ease-in-out infinite;
+    }
+    .bg-canvas::after {
+      content: '';
+      position: absolute;
+      width: 700px; height: 700px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(6,182,212,0.28) 0%, transparent 70%);
+      bottom: -100px; right: -200px;
+      animation: float2 18s ease-in-out infinite;
+    }
+    .bg-orb3 {
+      position: absolute;
+      width: 500px; height: 500px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(245,158,11,0.15) 0%, transparent 70%);
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      animation: float3 22s ease-in-out infinite;
+    }
+
+    @keyframes float1 {
+      0%, 100% { transform: translate(0, 0) scale(1); }
+      33% { transform: translate(80px, 60px) scale(1.1); }
+      66% { transform: translate(-40px, 100px) scale(0.9); }
+    }
+    @keyframes float2 {
+      0%, 100% { transform: translate(0, 0) scale(1); }
+      50% { transform: translate(-100px, -80px) scale(1.15); }
+    }
+    @keyframes float3 {
+      0%, 100% { transform: translate(-50%, -50%) scale(1); }
+      50% { transform: translate(-50%, -55%) scale(1.2); }
+    }
+
+    /* ─── PARTICLES ─── */
+    .particles { position: fixed; inset: 0; z-index: 0; pointer-events: none; }
+    .particle {
+      position: absolute;
+      width: 2px; height: 2px;
+      background: rgba(255,255,255,0.4);
+      border-radius: 50%;
+      animation: rise linear infinite;
+    }
+
+    @keyframes rise {
+      0% { transform: translateY(100vh) scale(0); opacity: 0; }
+      10% { opacity: 1; }
+      90% { opacity: 1; }
+      100% { transform: translateY(-10vh) scale(1); opacity: 0; }
+    }
+
+    /* ─── LAYOUT ─── */
+    .wrapper { position: relative; z-index: 1; }
+
+    /* ─── NAV ─── */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      padding: 20px 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      background: rgba(6,6,18,0.6);
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+    .nav-logo {
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      background: linear-gradient(135deg, #fff 0%, var(--accent-2) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .nav-links {
+      display: flex;
+      gap: 40px;
+      list-style: none;
+    }
+    .nav-links a {
+      font-size: 13px;
+      font-weight: 400;
+      letter-spacing: 0.08em;
+      color: var(--text-secondary);
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+    .nav-links a:hover { color: var(--text-primary); }
+    .nav-cta {
+      padding: 10px 24px;
+      border-radius: 100px;
+      font-size: 13px;
+      font-weight: 600;
+      border: 1px solid rgba(124,58,237,0.5);
+      color: var(--text-primary);
+      text-decoration: none;
+      background: rgba(124,58,237,0.15);
+      transition: all 0.3s;
+      backdrop-filter: blur(10px);
+    }
+    .nav-cta:hover {
+      background: rgba(124,58,237,0.35);
+      border-color: rgba(124,58,237,0.8);
+      box-shadow: 0 0 30px rgba(124,58,237,0.3);
+    }
+
+    /* ─── HERO ─── */
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 120px 40px 80px;
+    }
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 20px;
+      border-radius: 100px;
+      border: 1px solid var(--glass-border);
+      background: var(--glass-bg);
+      backdrop-filter: blur(20px);
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+      margin-bottom: 40px;
+      animation: fadeUp 0.8s ease both;
+    }
+    .hero-badge-dot {
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: var(--accent-2);
+      animation: pulse 2s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.5; transform: scale(0.7); }
+    }
+
+    .hero-title {
+      font-size: clamp(52px, 8vw, 110px);
+      font-weight: 900;
+      line-height: 0.95;
+      letter-spacing: -0.03em;
+      margin-bottom: 30px;
+      animation: fadeUp 0.8s 0.1s ease both;
+    }
+    .hero-title span {
+      display: block;
+    }
+    .hero-title .gradient-word {
+      background: linear-gradient(135deg, #fff 0%, rgba(124,58,237,0.9) 40%, var(--accent-2) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero-sub {
+      font-size: 18px;
+      font-weight: 300;
+      color: var(--text-secondary);
+      max-width: 540px;
+      line-height: 1.7;
+      margin-bottom: 56px;
+      animation: fadeUp 0.8s 0.2s ease both;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 16px;
+      animation: fadeUp 0.8s 0.3s ease both;
+    }
+
+    .btn-primary {
+      padding: 16px 40px;
+      border-radius: 100px;
+      font-size: 15px;
+      font-weight: 600;
+      background: linear-gradient(135deg, var(--accent-1), var(--accent-2));
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.3s;
+      box-shadow: 0 4px 40px rgba(124,58,237,0.4);
+    }
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 60px rgba(124,58,237,0.6);
+    }
+    .btn-secondary {
+      padding: 16px 40px;
+      border-radius: 100px;
+      font-size: 15px;
+      font-weight: 500;
+      background: var(--glass-bg);
+      color: var(--text-primary);
+      border: 1px solid var(--glass-border);
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.3s;
+      backdrop-filter: blur(20px);
+    }
+    .btn-secondary:hover {
+      background: var(--glass-hover);
+      transform: translateY(-2px);
+    }
+
+    .hero-scroll {
+      margin-top: 80px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      animation: fadeUp 0.8s 0.5s ease both;
+    }
+    .hero-scroll span {
+      font-size: 11px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+    }
+    .scroll-line {
+      width: 1px;
+      height: 50px;
+      background: linear-gradient(to bottom, var(--accent-2), transparent);
+      animation: scrollDown 1.5s ease-in-out infinite;
+    }
+    @keyframes scrollDown {
+      0%, 100% { transform: scaleY(1); opacity: 0.6; }
+      50% { transform: scaleY(0.6); opacity: 1; }
+    }
+
+    /* ─── SECTION LAYOUT ─── */
+    section {
+      padding: 120px 60px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .section-label {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: var(--accent-2);
+      margin-bottom: 16px;
+    }
+    .section-title {
+      font-size: clamp(32px, 4vw, 52px);
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      line-height: 1.1;
+      margin-bottom: 16px;
+    }
+    .section-sub {
+      font-size: 16px;
+      font-weight: 300;
+      color: var(--text-secondary);
+      line-height: 1.7;
+      max-width: 560px;
+    }
+    .section-header {
+      margin-bottom: 64px;
+    }
+
+    /* ─── GLASS CARD ─── */
+    .glass-card {
+      background: var(--glass-bg);
+      border: 1px solid var(--glass-border);
+      border-radius: 24px;
+      backdrop-filter: blur(30px);
+      -webkit-backdrop-filter: blur(30px);
+      transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+      overflow: hidden;
+      position: relative;
+    }
+    .glass-card::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+      background: linear-gradient(135deg, rgba(255,255,255,0.08) 0%, transparent 60%);
+      pointer-events: none;
+    }
+    .glass-card:hover {
+      background: var(--glass-hover);
+      border-color: rgba(255,255,255,0.2);
+      transform: translateY(-4px);
+      box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+    }
+
+    /* ─── GOALS SECTION ─── */
+    .goals-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+    .goal-card {
+      padding: 36px 28px;
+      text-align: center;
+      cursor: default;
+    }
+    .goal-icon {
+      font-size: 36px;
+      margin-bottom: 20px;
+      display: block;
+    }
+    .goal-number {
+      font-size: 64px;
+      font-weight: 900;
+      letter-spacing: -0.04em;
+      line-height: 1;
+      margin-bottom: 8px;
+      background: linear-gradient(135deg, #fff, var(--accent-2));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .goal-label {
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--text-secondary);
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+    .goal-progress-bar {
+      margin-top: 20px;
+      height: 3px;
+      border-radius: 100px;
+      background: rgba(255,255,255,0.08);
+      overflow: hidden;
+    }
+    .goal-progress-fill {
+      height: 100%;
+      border-radius: 100px;
+      background: linear-gradient(90deg, var(--accent-1), var(--accent-2));
+      width: 0%;
+      transition: width 1.5s cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    /* ─── PRINCIPLES ─── */
+    .principles-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+    .principle-card {
+      padding: 40px 32px;
+    }
+    .principle-number {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      color: var(--accent-1);
+      margin-bottom: 20px;
+    }
+    .principle-title {
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 12px;
+      letter-spacing: -0.01em;
+    }
+    .principle-desc {
+      font-size: 14px;
+      line-height: 1.75;
+      color: var(--text-secondary);
+    }
+
+    /* ─── EXERCISES ─── */
+    .exercises-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+    .exercise-card {
+      padding: 32px;
+      display: flex;
+      gap: 24px;
+      align-items: flex-start;
+      cursor: default;
+    }
+    .exercise-icon-wrap {
+      width: 56px;
+      height: 56px;
+      border-radius: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      flex-shrink: 0;
+      background: rgba(124,58,237,0.15);
+      border: 1px solid rgba(124,58,237,0.3);
+    }
+    .exercise-icon-wrap.cyan {
+      background: rgba(6,182,212,0.12);
+      border-color: rgba(6,182,212,0.3);
+    }
+    .exercise-icon-wrap.amber {
+      background: rgba(245,158,11,0.12);
+      border-color: rgba(245,158,11,0.3);
+    }
+    .exercise-category {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 6px;
+    }
+    .exercise-name {
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      margin-bottom: 8px;
+    }
+    .exercise-desc {
+      font-size: 13px;
+      line-height: 1.65;
+      color: var(--text-secondary);
+      margin-bottom: 14px;
+    }
+    .exercise-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .tag {
+      padding: 4px 12px;
+      border-radius: 100px;
+      font-size: 11px;
+      font-weight: 500;
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.1);
+      color: var(--text-secondary);
+    }
+    .tag.highlight {
+      background: rgba(124,58,237,0.2);
+      border-color: rgba(124,58,237,0.4);
+      color: rgba(167,139,250,1);
+    }
+
+    /* ─── TRAINING PLAN ─── */
+    .plan-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+    }
+    .plan-card {
+      padding: 44px 40px;
+    }
+    .plan-badge {
+      display: inline-block;
+      padding: 5px 16px;
+      border-radius: 100px;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      margin-bottom: 24px;
+    }
+    .plan-badge.pro { background: rgba(124,58,237,0.2); color: #a78bfa; border: 1px solid rgba(124,58,237,0.4); }
+    .plan-badge.starter { background: rgba(6,182,212,0.15); color: #67e8f9; border: 1px solid rgba(6,182,212,0.3); }
+
+    .plan-title {
+      font-size: 28px;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      margin-bottom: 8px;
+    }
+    .plan-subtitle {
+      font-size: 14px;
+      color: var(--text-secondary);
+      margin-bottom: 36px;
+    }
+    .plan-days {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .plan-day {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding: 14px 18px;
+      border-radius: 14px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.06);
+      transition: all 0.3s;
+    }
+    .plan-day:hover {
+      background: rgba(255,255,255,0.06);
+      border-color: rgba(255,255,255,0.1);
+    }
+    .day-label {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      width: 32px;
+      flex-shrink: 0;
+    }
+    .day-name {
+      font-size: 14px;
+      font-weight: 600;
+      flex: 1;
+    }
+    .day-type {
+      font-size: 11px;
+      padding: 3px 10px;
+      border-radius: 100px;
+    }
+    .day-type.push { background: rgba(124,58,237,0.2); color: #a78bfa; }
+    .day-type.pull { background: rgba(6,182,212,0.15); color: #67e8f9; }
+    .day-type.legs { background: rgba(245,158,11,0.15); color: #fcd34d; }
+    .day-type.rest { background: rgba(255,255,255,0.05); color: var(--text-muted); }
+    .day-type.full { background: rgba(167,243,208,0.15); color: #6ee7b7; }
+
+    /* ─── WARMUP SECTION ─── */
+    .warmup-banner {
+      padding: 60px;
+      display: flex;
+      align-items: center;
+      gap: 60px;
+    }
+    .warmup-icon-big {
+      font-size: 80px;
+      flex-shrink: 0;
+      animation: wiggle 3s ease-in-out infinite;
+    }
+    @keyframes wiggle {
+      0%, 100% { transform: rotate(0deg); }
+      25% { transform: rotate(-5deg); }
+      75% { transform: rotate(5deg); }
+    }
+    .warmup-content { flex: 1; }
+    .warmup-title {
+      font-size: 32px;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      margin-bottom: 12px;
+    }
+    .warmup-text {
+      font-size: 15px;
+      line-height: 1.75;
+      color: var(--text-secondary);
+      margin-bottom: 24px;
+    }
+    .warmup-items {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .warmup-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 16px;
+      border-radius: 100px;
+      background: rgba(6,182,212,0.1);
+      border: 1px solid rgba(6,182,212,0.25);
+      font-size: 13px;
+      color: rgba(103,232,249,0.9);
+    }
+    .warmup-item::before {
+      content: '✓';
+      font-weight: 700;
+    }
+
+    /* ─── CTA ─── */
+    .cta-section {
+      padding: 120px 60px;
+      text-align: center;
+    }
+    .cta-inner {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 80px 60px;
+    }
+    .cta-title {
+      font-size: clamp(36px, 5vw, 64px);
+      font-weight: 900;
+      letter-spacing: -0.03em;
+      line-height: 1.05;
+      margin-bottom: 24px;
+    }
+    .cta-title .glow {
+      background: linear-gradient(135deg, var(--accent-1), var(--accent-2), #fff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .cta-sub {
+      font-size: 17px;
+      color: var(--text-secondary);
+      line-height: 1.7;
+      margin-bottom: 48px;
+    }
+    .cta-stats {
+      display: flex;
+      justify-content: center;
+      gap: 48px;
+      margin-top: 56px;
+    }
+    .cta-stat-num {
+      font-size: 36px;
+      font-weight: 900;
+      letter-spacing: -0.03em;
+    }
+    .cta-stat-label {
+      font-size: 12px;
+      color: var(--text-muted);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    /* ─── FOOTER ─── */
+    footer {
+      border-top: 1px solid rgba(255,255,255,0.06);
+      padding: 40px 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .footer-logo {
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+    }
+    .footer-copy {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+    .footer-links {
+      display: flex;
+      gap: 28px;
+    }
+    .footer-links a {
+      font-size: 12px;
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+    .footer-links a:hover { color: var(--text-secondary); }
+
+    /* ─── ANIMATIONS ─── */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(24px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 0.7s cubic-bezier(0.23, 1, 0.32, 1),
+                  transform 0.7s cubic-bezier(0.23, 1, 0.32, 1);
+    }
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* stagger children */
+    .reveal-stagger > * {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity 0.6s cubic-bezier(0.23, 1, 0.32, 1),
+                  transform 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+    }
+    .reveal-stagger.visible > *:nth-child(1) { opacity: 1; transform: none; transition-delay: 0s; }
+    .reveal-stagger.visible > *:nth-child(2) { opacity: 1; transform: none; transition-delay: 0.08s; }
+    .reveal-stagger.visible > *:nth-child(3) { opacity: 1; transform: none; transition-delay: 0.16s; }
+    .reveal-stagger.visible > *:nth-child(4) { opacity: 1; transform: none; transition-delay: 0.24s; }
+    .reveal-stagger.visible > *:nth-child(5) { opacity: 1; transform: none; transition-delay: 0.32s; }
+    .reveal-stagger.visible > *:nth-child(6) { opacity: 1; transform: none; transition-delay: 0.40s; }
+
+    /* ─── DIVIDER ─── */
+    .divider {
+      width: 100%;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.08), transparent);
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    /* ─── COUNTER ANIMATION ─── */
+    .count-up { display: inline-block; }
+
+    /* ─── SCROLL PROGRESS ─── */
+    .scroll-progress {
+      position: fixed;
+      top: 0; left: 0;
+      height: 2px;
+      background: linear-gradient(90deg, var(--accent-1), var(--accent-2));
+      z-index: 999;
+      width: 0%;
+      transition: width 0.1s linear;
+      box-shadow: 0 0 10px var(--accent-2);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Scroll Progress -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- Background -->
+  <div class="bg-canvas">
+    <div class="bg-orb3"></div>
+  </div>
+
+  <!-- Particles -->
+  <div class="particles" id="particles"></div>
+
+  <div class="wrapper">
+
+    <!-- NAV -->
+    <nav>
+      <div class="nav-logo">CALISTHENICS</div>
+      <ul class="nav-links">
+        <li><a href="#ziele">Ziele</a></li>
+        <li><a href="#prinzipien">Prinzipien</a></li>
+        <li><a href="#übungen">Übungen</a></li>
+        <li><a href="#plan">Trainingsplan</a></li>
+      </ul>
+      <a href="#plan" class="nav-cta">Jetzt starten →</a>
+    </nav>
+
+    <!-- HERO -->
+    <div class="hero">
+      <div class="hero-badge">
+        <span class="hero-badge-dot"></span>
+        No Gym. No Excuses. Just You.
+      </div>
+
+      <h1 class="hero-title">
+        <span>Dein Körper.</span>
+        <span class="gradient-word">Deine Kraft.</span>
+      </h1>
+
+      <p class="hero-sub">
+        Keine Ausreden. Kein teures Gym. Nur du, dein Körpergewicht und der Wille,
+        besser zu werden — Tag für Tag.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#ziele" class="btn-primary">Mein Ziel ansehen</a>
+        <a href="#übungen" class="btn-secondary">Übungen entdecken</a>
+      </div>
+
+      <div class="hero-scroll">
+        <div class="scroll-line"></div>
+        <span>Scroll</span>
+      </div>
+    </div>
+
+    <!-- ZIELE -->
+    <section id="ziele">
+      <div class="section-header reveal">
+        <div class="section-label">Mein Benchmark</div>
+        <h2 class="section-title">Das Fundament.<br>Vier Ziele. Eine Mission.</h2>
+        <p class="section-sub">
+          Bevor du an Skills wie dem Muscle-Up oder Planche denkst —
+          diese vier Zahlen sind dein Startpunkt. Schaff sie, und du bist bereit.
+        </p>
+      </div>
+
+      <div class="goals-grid reveal-stagger" id="goalsGrid">
+        <div class="glass-card goal-card">
+          <span class="goal-icon">🔼</span>
+          <div class="goal-number count-up" data-target="10">0</div>
+          <div class="goal-label">Klimmzüge</div>
+          <div class="goal-progress-bar">
+            <div class="goal-progress-fill" data-width="0"></div>
+          </div>
+        </div>
+        <div class="glass-card goal-card">
+          <span class="goal-icon">💪</span>
+          <div class="goal-number count-up" data-target="25">0</div>
+          <div class="goal-label">Liegestütze</div>
+          <div class="goal-progress-bar">
+            <div class="goal-progress-fill" data-width="0"></div>
+          </div>
+        </div>
+        <div class="glass-card goal-card">
+          <span class="goal-icon">⬇️</span>
+          <div class="goal-number count-up" data-target="15">0</div>
+          <div class="goal-label">Dips</div>
+          <div class="goal-progress-bar">
+            <div class="goal-progress-fill" data-width="0"></div>
+          </div>
+        </div>
+        <div class="glass-card goal-card">
+          <span class="goal-icon">🦵</span>
+          <div class="goal-number count-up" data-target="40">0</div>
+          <div class="goal-label">Squats</div>
+          <div class="goal-progress-bar">
+            <div class="goal-progress-fill" data-width="0"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- PRINZIPIEN -->
+    <section id="prinzipien">
+      <div class="section-header reveal">
+        <div class="section-label">Die Basics</div>
+        <h2 class="section-title">Drei Prinzipien.<br>Keine Kompromisse.</h2>
+        <p class="section-sub">
+          Wer diese drei Dinge versteht und lebt, ist dem
+          durchschnittlichen Gym-Bro um Jahre voraus.
+        </p>
+      </div>
+
+      <div class="principles-grid reveal-stagger">
+        <div class="glass-card principle-card">
+          <div class="principle-number">01 — Progressionen</div>
+          <div class="principle-title">Progressive Overload</div>
+          <p class="principle-desc">
+            Statt Gewichte auf die Hantel zu packen,
+            wechselst du auf schwerere Übungsvariationen.
+            Vom Knie-Liegestütz zum Archer Pushup — jede
+            Stufe ist dein neues Ziel.
+          </p>
+        </div>
+        <div class="glass-card principle-card">
+          <div class="principle-number">02 — Technik</div>
+          <div class="principle-title">Form vor Reps</div>
+          <p class="principle-desc">
+            Dein Gehirn lernt jede Bewegung — auch die falsche.
+            Saubere Ausführung von Tag 1 ist keine Option,
+            sie ist die Voraussetzung. Film dich regelmäßig.
+          </p>
+        </div>
+        <div class="glass-card principle-card">
+          <div class="principle-number">03 — Relativkraft</div>
+          <div class="principle-title">Stärke = Kraft ÷ Körper</div>
+          <p class="principle-desc">
+            Im Calisthenics zählt nicht, wie viel du heben kannst.
+            Es zählt, wie stark du im Verhältnis zu dir selbst bist.
+            Jedes Gramm am Körper muss funktional arbeiten.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- WARMUP BANNER -->
+    <section style="padding: 0 60px 80px;">
+      <div class="glass-card warmup-banner reveal">
+        <div class="warmup-icon-big">🔥</div>
+        <div class="warmup-content">
+          <h3 class="warmup-title">10–15 Min. Warmup. Immer. Ohne Ausnahme.</h3>
+          <p class="warmup-text">
+            Handgelenke, Ellenbogen und Schultern werden im Calisthenics
+            brutal belastet. Wer das Warmup überspringt, zahlt früher oder
+            später mit einer Verletzung.
+          </p>
+          <div class="warmup-items">
+            <div class="warmup-item">Handgelenke</div>
+            <div class="warmup-item">Ellenbogen</div>
+            <div class="warmup-item">Schultern</div>
+            <div class="warmup-item">Scapular Shrugs</div>
+            <div class="warmup-item">Band Pull-Aparts</div>
+            <div class="warmup-item">Hüfte & Knie</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ÜBUNGEN -->
+    <section id="übungen">
+      <div class="section-header reveal">
+        <div class="section-label">Die Grundübungen</div>
+        <h2 class="section-title">Sechs Bewegungen.<br>Unendliche Progressionen.</h2>
+        <p class="section-sub">
+          Alle vier Calisthenics-Disziplinen bauen auf diesen
+          Grundmustern auf. Meistere sie und die Welt steht dir offen.
+        </p>
+      </div>
+
+      <div class="exercises-grid reveal-stagger">
+        <div class="glass-card exercise-card">
+          <div class="exercise-icon-wrap">💪</div>
+          <div>
+            <div class="exercise-category">Push — Horizontal</div>
+            <div class="exercise-name">Liegestütz</div>
+            <div class="exercise-desc">
+              Die Basis aller Druckbewegungen. 70% deines Körpergewichts,
+              vollständige Schulterblatt-Protraktion oben,
+              neutrale Hüfte die ganze Zeit.
+            </div>
+            <div class="exercise-tags">
+              <span class="tag highlight">Knie-Pushup</span>
+              <span class="tag">Diamond</span>
+              <span class="tag">Archer</span>
+              <span class="tag">Einarmig</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="glass-card exercise-card">
+          <div class="exercise-icon-wrap cyan">⬇️</div>
+          <div>
+            <div class="exercise-category">Push — Vertikal</div>
+            <div class="exercise-name">Dip</div>
+            <div class="exercise-desc">
+              Verticale Druckbewegung für Schultergesundheit.
+              Scapular in Protraktion + Depression halten —
+              die Schwerkraft zieht dich in die Elevation.
+            </div>
+            <div class="exercise-tags">
+              <span class="tag highlight">Sofa-Dip</span>
+              <span class="tag">Negative</span>
+              <span class="tag">Ring-Dip</span>
+              <span class="tag">Weighted</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="glass-card exercise-card">
+          <div class="exercise-icon-wrap amber">🙆</div>
+          <div>
+            <div class="exercise-category">Push — Overhead</div>
+            <div class="exercise-name">Pike Pushup</div>
+            <div class="exercise-desc">
+              Vorbereitung auf den Handstand-Pushup.
+              Kopf bildet Dreieck mit Händen. Je steiler der Winkel,
+              desto schwerer. Schulterblatt-Elevation oben.
+            </div>
+            <div class="exercise-tags">
+              <span class="tag highlight">Pike Hold</span>
+              <span class="tag">Pike Pushup</span>
+              <span class="tag">Elevated Pike</span>
+              <span class="tag">HSPU</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="glass-card exercise-card">
+          <div class="exercise-icon-wrap">🔼</div>
+          <div>
+            <div class="exercise-category">Pull — Vertikal</div>
+            <div class="exercise-name">Klimmzug</div>
+            <div class="exercise-desc">
+              Legendär. Schulterblatt von Dead Hang in Active Hang —
+              Depression + Retraktion. Kein Rundrücken. Core immer dabei.
+              Ausgangslage für alles Große.
+            </div>
+            <div class="exercise-tags">
+              <span class="tag highlight">Dead Hang</span>
+              <span class="tag">Negative</span>
+              <span class="tag">Band-assisted</span>
+              <span class="tag">Archer</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="glass-card exercise-card">
+          <div class="exercise-icon-wrap cyan">🏋️</div>
+          <div>
+            <div class="exercise-category">Pull — Horizontal</div>
+            <div class="exercise-name">Ring-Rudern</div>
+            <div class="exercise-desc">
+              Horizontale Zugbewegung für Rückenbreite und
+              Front-Lever-Vorbereitung. Höhe bestimmt Schwierigkeit —
+              je flacher, desto brutaler.
+            </div>
+            <div class="exercise-tags">
+              <span class="tag highlight">Erhöht</span>
+              <span class="tag">Flach</span>
+              <span class="tag">Explosive</span>
+              <span class="tag">Archer Row</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="glass-card exercise-card">
+          <div class="exercise-icon-wrap amber">🦵</div>
+          <div>
+            <div class="exercise-category">Legs & Core</div>
+            <div class="exercise-name">Squat + L-Sit</div>
+            <div class="exercise-desc">
+              Squat bis unter 90° als Basis, Pistol als Ziel.
+              L-Sit an Ringen oder Parallels — isometrisch,
+              knallhart. Transferiert auf fast alle Skills.
+            </div>
+            <div class="exercise-tags">
+              <span class="tag highlight">Air Squat</span>
+              <span class="tag">Jump Squat</span>
+              <span class="tag">Pistol</span>
+              <span class="tag">L-Sit</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- TRAININGSPLAN -->
+    <section id="plan">
+      <div class="section-header reveal">
+        <div class="section-label">Programming</div>
+        <h2 class="section-title">Dein Trainingsplan.<br>Zwei Wege. Eine Richtung.</h2>
+        <p class="section-sub">
+          Wähle die Struktur, die zu deinem Leben passt.
+          Beide führen zum Ziel — Konsequenz ist der einzige
+          Unterschied.
+        </p>
+      </div>
+
+      <div class="plan-grid reveal-stagger">
+        <!-- PUSH/PULL SPLIT -->
+        <div class="glass-card plan-card">
+          <div class="plan-badge pro">Advanced — 6×/Woche</div>
+          <div class="plan-title">Push / Pull Split</div>
+          <div class="plan-subtitle">Jede Muskelgruppe 2× pro Woche. Maximaler Fortschritt.</div>
+          <div class="plan-days">
+            <div class="plan-day">
+              <span class="day-label">MO</span>
+              <span class="day-name">Push — Horizontal + Vertikal</span>
+              <span class="day-type push">Push</span>
+            </div>
+            <div class="plan-day">
+              <span class="day-label">DI</span>
+              <span class="day-name">Pull — Vertikal + Horizontal</span>
+              <span class="day-type pull">Pull</span>
+            </div>
+            <div class="plan-day">
+              <span class="day-label">MI</span>
+              <span class="day-name">Legs & Core</span>
+              <span class="day-type legs">Legs</span>
+            </div>
+            <div class="plan-day">
+              <span class="day-label">DO</span>
+              <span class="day-name">Push — Horizontal + Vertikal</span>
+              <span class="day-type push">Push</span>
+            </div>
+            <div class="plan-day">
+              <span class="day-label">FR</span>
+              <span class="day-name">Pull — Vertikal + Horizontal</span>
+              <span class="day-type pull">Pull</span>
+            </div>
+            <div class="plan-day">
+              <span class="day-label">SA</span>
+              <span class="day-name">Legs & Core + Skills</span>
+              <span class="day-type legs">Legs</span>
+            </div>
+            <div class="plan-day">
+              <span class="day-label">SO</span>
+              <span class="day-name">Aktive Erholung / Mobility</span>
+              <span class="day-type rest">Rest</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- GANZKÖRPER -->
+        <div class="glass-card plan-card">
+          <div class="plan-badge starter">Starter — 3×/Woche</div>
+          <div class="plan-title">Ganzkörper</div>
+          <div class="plan-subtitle">2–3 Einheiten pro Woche. Perfekt zum Einstieg.</div>
+          <div class="plan-days">
+            <div class="plan-day">
+              <span class="day-label">MO</span>
+              <span class="day-name">Ganzkörper A — Push + Pull + Core</span>
+              <span class="day-type full">Full</span>
+            </div>
+            <div class="plan-day">
+              <span class="day-label">DI</span>
+              <span class="day-name">Ruhe & Mobility</span>
+              <span class="day-type rest">Rest</span>
+            </div>
+            <div class="plan-day">
+              <span class="day-label">MI</span>
+              <span class="day-name">Ganzkörper B — Push + Pull + Legs</span>
+              <span class="day-type full">Full</span>
+            </div>
+            <div class="plan-day">
+              <span class="day-label">DO</span>
+              <span class="day-name">Ruhe & Mobility</span>
+              <span class="day-type rest">Rest</span>
+            </div>
+            <div class="plan-day">
+              <span class="day-label">FR</span>
+              <span class="day-name">Ganzkörper C — Fokus Skills</span>
+              <span class="day-type full">Full</span>
+            </div>
+            <div class="plan-day">
+              <span class="day-label">SA</span>
+              <span class="day-name">Optional: Outdoor-Session</span>
+              <span class="day-type rest">Bonus</span>
+            </div>
+            <div class="plan-day">
+              <span class="day-label">SO</span>
+              <span class="day-name">Komplett Ruhe — Schlaf ist King</span>
+              <span class="day-type rest">Rest</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <div class="cta-section">
+      <div class="glass-card cta-inner reveal">
+        <div class="section-label" style="margin-bottom: 20px;">Los geht's</div>
+        <h2 class="cta-title">
+          Tag 1 beginnt<br>
+          <span class="glow">heute.</span>
+        </h2>
+        <p class="cta-sub">
+          Kein perfekter Moment. Kein perfektes Equipment.
+          Nur du und der erste Satz. Die Leute, die du bewunderst,
+          haben genau so angefangen.
+        </p>
+        <div class="hero-actions" style="justify-content: center;">
+          <a href="#ziele" class="btn-primary">Meine Ziele ansehen</a>
+          <a href="#übungen" class="btn-secondary">Übungen starten</a>
+        </div>
+        <div class="cta-stats">
+          <div>
+            <div class="cta-stat-num" style="background: linear-gradient(135deg, #fff, #7c3aed); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">0€</div>
+            <div class="cta-stat-label">Kosten für den Start</div>
+          </div>
+          <div>
+            <div class="cta-stat-num" style="background: linear-gradient(135deg, #fff, #06b6d4); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">∞</div>
+            <div class="cta-stat-label">Mögliche Progressionen</div>
+          </div>
+          <div>
+            <div class="cta-stat-num" style="background: linear-gradient(135deg, #fff, #f59e0b); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">1</div>
+            <div class="cta-stat-label">Körper. Dein Körper.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-logo">Calisthenics</div>
+      <div class="footer-copy">Basierend auf Tim Erens — "Wenn ich nach 10 Jahren noch mal bei 0 anfangen würde"</div>
+      <div class="footer-links">
+        <a href="#ziele">Ziele</a>
+        <a href="#übungen">Übungen</a>
+        <a href="#plan">Plan</a>
+      </div>
+    </footer>
+
+  </div><!-- /wrapper -->
+
+  <script>
+    /* ─── PARTICLES ─── */
+    (function() {
+      const container = document.getElementById('particles');
+      for (let i = 0; i < 35; i++) {
+        const p = document.createElement('div');
+        p.className = 'particle';
+        p.style.left = Math.random() * 100 + 'vw';
+        p.style.width = p.style.height = (Math.random() * 2 + 1) + 'px';
+        const dur = (Math.random() * 18 + 12) + 's';
+        const delay = '-' + (Math.random() * 20) + 's';
+        p.style.animationDuration = dur;
+        p.style.animationDelay = delay;
+        p.style.opacity = (Math.random() * 0.5 + 0.1).toString();
+        container.appendChild(p);
+      }
+    })();
+
+    /* ─── SCROLL PROGRESS ─── */
+    window.addEventListener('scroll', () => {
+      const scrolled = window.scrollY;
+      const max = document.body.scrollHeight - window.innerHeight;
+      document.getElementById('scrollProgress').style.width = (scrolled / max * 100) + '%';
+    });
+
+    /* ─── INTERSECTION OBSERVER (REVEAL) ─── */
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+
+          /* trigger goal counters */
+          if (entry.target.id === 'goalsGrid') {
+            triggerCounters();
+          }
+        }
+      });
+    }, { threshold: 0.15 });
+
+    document.querySelectorAll('.reveal, .reveal-stagger').forEach(el => {
+      observer.observe(el);
+    });
+
+    /* ─── COUNTER ANIMATION ─── */
+    function triggerCounters() {
+      document.querySelectorAll('.count-up').forEach(el => {
+        const target = parseInt(el.dataset.target);
+        const duration = 1600;
+        const start = performance.now();
+
+        function animate(now) {
+          const elapsed = now - start;
+          const progress = Math.min(elapsed / duration, 1);
+          const ease = 1 - Math.pow(1 - progress, 4);
+          el.textContent = Math.round(ease * target);
+          if (progress < 1) requestAnimationFrame(animate);
+          else el.textContent = target;
+        }
+        requestAnimationFrame(animate);
+      });
+    }
+
+    /* ─── NAV SCROLL EFFECT ─── */
+    const nav = document.querySelector('nav');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 60) {
+        nav.style.background = 'rgba(6,6,18,0.85)';
+      } else {
+        nav.style.background = 'rgba(6,6,18,0.6)';
+      }
+    });
+  </script>
+</body>
+</html>
