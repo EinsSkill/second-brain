@@ -37,6 +37,7 @@ aktualisiert: 2026-04-10
 - Hearthstone
 - Minecraft (betreibt eigenen DatHost-Server)
 - Clash of Clans
+- Pokémon Unbound (GBA ROM Hack, Emulator: Lemuroid) → [[Gaming/Pokemon_Unbound_Top4]]
 
 ---
 

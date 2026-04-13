@@ -1,3 +1,9 @@
+---
+tags: [gaming, pokemon, unbound]
+erstellt: 2026-04-13
+aktualisiert: 2026-04-13
+---
+
 # Pokémon Unbound — Top 4 Vorbereitung
 
 **Tags:** #gaming #pokemon #unbound  
@@ -155,3 +161,10 @@
 - Mega Evolution freischalten: Successor Maxima in Tarmigan Mansion besiegen
 - Top 4 skaliert auf höchstes Level im Team → kein blindes Grinden hilft
 - Pokémon Center in der Liga-Lobby nach JEDEM Kampf nutzen!
+
+---
+
+## Verbindungen
+
+- [[Selbstentwicklung/Interessen-und-Tech]] – Gaming-Interessen
+- [[_System/index]] – Wiki-Übersicht

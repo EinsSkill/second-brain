@@ -46,6 +46,14 @@
 
 ---
 
+## 🎮 Gaming
+
+| Seite | Beschreibung |
+|---|---|
+| [[Gaming/Pokemon_Unbound_Top4]] | Top 4 Vorbereitung – Team, Kampfplan, Mega Steine, TM-Locations |
+
+---
+
 ## 📦 Ressourcen
 
 | Seite | Beschreibung |
