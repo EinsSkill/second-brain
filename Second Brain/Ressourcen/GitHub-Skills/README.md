@@ -23,6 +23,7 @@
 | `web-artifacts-builder/` | anthropics/skills | Komplexe Web-Apps mit React + Tailwind + shadcn/ui |
 | `file-organizer/` | smithjoshua/claude-code-cowork-skills-file-organizer | PARA-Methode Datei-Organisation für Second Brain |
 | `obsidian-second-brain/` | eugeniughelbur/obsidian-second-brain | 24 Commands für autonomes Vault-Management mit Claude |
+| `gba-save-converter.skill` | selbst erstellt | GBA Spielstand von PC (.sav) → Lemuroid Android (.srm) konvertieren |
 
 ---
 

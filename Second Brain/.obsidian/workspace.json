@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "75c77abc4612cbb2",
+        "id": "bd65a2f8b3dfea73",
         "type": "tabs",
         "children": [
           {
-            "id": "dc903ff2b2675de2",
+            "id": "ae27af5fd6c66518",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -36,7 +36,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "byModifiedTime",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -179,43 +179,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "10ccd5e044e60f53",
+  "active": "ae27af5fd6c66518",
   "lastOpenFiles": [
+    "Ressourcen/GitHub-Skills/README.md.tmp.9324.1776126211623",
+    "Ressourcen/GitHub-Skills/gba-save-converter.skill",
+    "Gaming/Spielstand_Transfer_PC_zu_Lemuroid.md",
+    "Business/Recherche/README.md",
+    "Ressourcen/GitHub-Skills/theme-factory/SKILL.md",
+    "Selbstentwicklung/Interessen-und-Tech.md",
+    "Gaming/Spielstand_Transfer_PC_zu_Lemuroid.md.tmp.8578.1776125939042",
+    "_System/index.md",
+    "Ressourcen/Prompt-Vorlagen.md",
+    "CLAUDE.md",
+    "_System/index.md.tmp.8332.1776125805835",
+    "_System/index.md.tmp.8332.1776125803049",
+    "_System/index.md.tmp.8332.1776125800628",
+    "Gaming/Spielstand_Transfer_PC_zu_Lemuroid.md.tmp.8332.1776125790100",
+    "KI Guide – Grundlagen.md",
+    "TASKS.md",
     "Gaming/Pokemon_Unbound_Top4.md.tmp.6438.1776093320014",
     "Gaming/Pokemon_Unbound_Top4.md.tmp.6438.1776093316094",
     "_System/index.md.tmp.6438.1776093312803",
     "Selbstentwicklung/Interessen-und-Tech.md.tmp.6438.1776093309417",
-    "Selbstentwicklung/Mein_Profil_Psychologische_Analyse.md.tmp.14560.1775835126262",
-    "_System/log.md.tmp.14560.1775835117130",
-    "_System/Projektgeruest_KI_System.md.tmp.10128.1775833411177",
-    "TASKS.md",
-    "Ressourcen/Daily-Note-Vorlage.md.tmp.10128.1775833346558",
-    "Ressourcen/Prompt-Vorlagen.md.tmp.10128.1775833337339",
-    "Selbstentwicklung/Mein_Profil_Psychologische_Analyse.md.tmp.10128.1775833328131",
-    "TASKS.md.tmp.10128.1775833312375",
     "Ressourcen/GitHub-Skills/frontend-design/SKILL.md",
     "Business/Aktionen/Lukes_Daily.md",
     "_System/Bereich1_Claude_KI_Tools.md",
     "_System/Projektgeruest_KI_System.md",
     "Selbstentwicklung/Tagesreflexion/README.md",
     "Business/Aktionen/README.md",
-    "Business/Recherche/README.md",
     "Business/Ideen/README.md",
     "Ausbildung/NX Logistics/README.md",
     "Ausbildung/Berufsschule/README.md",
     "Inbox/README.md",
-    "CLAUDE.md",
-    "_System/index.md",
     "Business/Lukes_Daily.md",
     "Ressourcen/GitHub-Skills/README.md",
     "Ressourcen/Obsidian-Beautification-Guide.md",
-    "Ressourcen/GitHub-Skills/theme-factory/SKILL.md",
     "Ressourcen/GitHub-Skills/obsidian-second-brain/architecture.md",
     "Ressourcen/GitHub-Skills/obsidian-second-brain/SKILL.md",
-    "Ressourcen/GitHub-Skills/file-organizer/SKILL.md",
-    "Ressourcen/GitHub-Skills/doc-coauthoring/SKILL.md",
-    "Ressourcen/GitHub-Skills/web-artifacts-builder/SKILL.md",
-    "KI Guide – Grundlagen.md",
-    "Skills/frontend-design-SKILL.md"
+    "Ressourcen/GitHub-Skills/file-organizer/SKILL.md"
   ]
 }

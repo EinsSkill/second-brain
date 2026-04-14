@@ -51,6 +51,7 @@
 | Seite | Beschreibung |
 |---|---|
 | [[Gaming/Pokemon_Unbound_Top4]] | Top 4 Vorbereitung – Team, Kampfplan, Mega Steine, TM-Locations |
+| [[Gaming/Spielstand_Transfer_PC_zu_Lemuroid]] | Anleitung: .sav → .srm konvertieren, per USB auf Handy übertragen |
 
 ---
 
@@ -68,10 +69,10 @@
 
 ## 📊 Statistik
 
-- **Seiten gesamt:** 17
+- **Seiten gesamt:** 18
 - **Bereiche befüllt:** System, Business, Selbstentwicklung, Ressourcen
 - **Bereiche leer (wachsen mit Nutzung):** Ausbildung, Tagesreflexion, Business/Ideen, Business/Recherche
-- **Letzte Aktivität:** 2026-04-13 – Wöchentlicher Lint (Seitenanzahl korrigiert 18→17, keine Strukturprobleme)
+- **Letzte Aktivität:** 2026-04-14 – Gaming/Spielstand_Transfer_PC_zu_Lemuroid hinzugefügt
 
 ---
 
