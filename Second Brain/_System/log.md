@@ -5,6 +5,18 @@
 
 ---
 
+## [2026-04-24] ingest | 17 Buch-Notes (personalisiert) + Übersicht angelegt
+
+**Was passiert ist:**
+- Lukes_Lernbuch_2025.pdf + Lukes_Wissenskompendium.pdf eingelesen und verarbeitet
+- 17 individuelle Buch-Notes erstellt in `Selbstentwicklung/Bücher & Artikel/`
+- Jede Note tief mit Lukes' psychologischem Profil verknüpft: Completion Gap, Hyperfokus, emotionale Isolation, Fearful-Avoidant, "nicht genug sein", AzubiPass, Beziehung
+- Übersichts-Note `00_Übersicht_Bücher_x_Psychologisches_Profil.md` angelegt: Muster-zu-Buch-Mapping + Wenn-dann-Navigation
+- index.md: Selbstentwicklung-Bereich um 18 Seiten erweitert, Seitenanzahl 20 → 38
+- Stärkste Bücher für Lukes: Atomic Habits, Das Kind in dir, 6 Säulen Selbstwert, Mom Test, 100M Offers
+
+---
+
 ## [2026-04-15] ingest | Niederländisch-Lernbereich aufgebaut + KI-Leitfaden eingespeist
 
 **Was passiert ist:**

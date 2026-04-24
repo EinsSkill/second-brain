@@ -1,7 +1,7 @@
 # 📚 Wiki Index – Lukes' Second Brain
 
 *Katalog aller Seiten. Von Claude gepflegt. Bei jeder Änderung aktualisieren.*
-*Zuletzt aktualisiert: 2026-04-15*
+*Zuletzt aktualisiert: 2026-04-24*
 
 ---
 
@@ -44,6 +44,24 @@
 |---|---|
 | [[Selbstentwicklung/Mein_Profil_Psychologische_Analyse]] | Lebendes psychologisches Profil – Persönlichkeit, Muster, Biografie, Baustellen |
 | [[Selbstentwicklung/Interessen-und-Tech]] | Hobbies, Style, Musik, Gaming, Tech-Stack, Sprachen |
+| [[Selbstentwicklung/Bücher & Artikel/00_Übersicht_Bücher_x_Psychologisches_Profil]] | Welches Buch trifft welches Muster – Übersicht + Wenn-dann-Navigation |
+| [[Selbstentwicklung/Bücher & Artikel/01_Atomic_Habits]] | James Clear – Systeme, Identität, Hyperfokus-Falle, Completion Gap |
+| [[Selbstentwicklung/Bücher & Artikel/02_Deep_Work]] | Cal Newport – Deep Work Blocks, Abend-Ritual, Attention Residue |
+| [[Selbstentwicklung/Bücher & Artikel/03_Die_7_Wege_zur_Effektivität]] | Covey – Quadrant 2, Sorgebereich loslassen, Zuhören in Beziehung |
+| [[Selbstentwicklung/Bücher & Artikel/04_Schnelles_Denken_Langsames_Denken]] | Kahneman – Verlustaversion, Framing für AzubiPass, Bestätigungsfehler |
+| [[Selbstentwicklung/Bücher & Artikel/05_Mindset]] | Carol Dweck – Growth vs. Fixed, Selbstwert von Leistung entkoppeln |
+| [[Selbstentwicklung/Bücher & Artikel/06_Das_Kind_in_dir_muss_Heimat_finden]] | Stefanie Stahl – Schattenkind, Parentifizierung, emotionale Isolation |
+| [[Selbstentwicklung/Bücher & Artikel/07_Trotzdem_Ja_zum_Leben_sagen]] | Viktor Frankl – Sinn, Resilienz, Biografie als Ressource |
+| [[Selbstentwicklung/Bücher & Artikel/08_Wie_man_Freunde_gewinnt]] | Dale Carnegie – Zuhören, Kommunikation, AzubiPass-Kundengespräche |
+| [[Selbstentwicklung/Bücher & Artikel/09_Die_Psychologie_des_Überzeugens]] | Robert Cialdini – 7 Prinzipien, AzubiPass Verkauf, Social Proof |
+| [[Selbstentwicklung/Bücher & Artikel/10_Alles_Idioten]] | Thomas Erikson – DISC-Farben, Kommunikation anpassen, Beziehung |
+| [[Selbstentwicklung/Bücher & Artikel/11_Die_6_Säulen_des_Selbstwertgefühls]] | Nathaniel Branden – Selbstwert von innen, Integrität, Selbstbehauptung |
+| [[Selbstentwicklung/Bücher & Artikel/12_Verletzlichkeit_macht_stark]] | Brené Brown – Schutzschilde, echte Verbindung, emotionale Öffnung |
+| [[Selbstentwicklung/Bücher & Artikel/13_Jetzt_Die_Kraft_der_Gegenwart]] | Eckhart Tolle – Gedankenloops, Weed-Kontext, Schmerzkörper |
+| [[Selbstentwicklung/Bücher & Artikel/14_Du_musst_nicht_von_allen_gemocht_werden]] | Kishimi & Koga – Aufgabentrennung, Perfektionismus, Freiheit |
+| [[Selbstentwicklung/Bücher & Artikel/15_Die_Gesetze_der_Gewinner]] | Bodo Schäfer – Schnell entscheiden, Adler vs. Muschel, Umgebung |
+| [[Selbstentwicklung/Bücher & Artikel/16_The_Mom_Test]] | Rob Fitzpatrick – AzubiPass validieren, 10 konkrete Fragen |
+| [[Selbstentwicklung/Bücher & Artikel/17_100M_Offers]] | Alex Hormozi – Angebot überarbeiten, Value Equation, Garantie |
 
 ---
 
@@ -70,10 +88,10 @@
 
 ## 📊 Statistik
 
-- **Seiten gesamt:** 20
-- **Bereiche befüllt:** System, Business, Selbstentwicklung, Ressourcen, Ausbildung
+- **Seiten gesamt:** 38
+- **Bereiche befüllt:** System, Business, Selbstentwicklung, Ressourcen, Ausbildung, Gaming
 - **Bereiche leer (wachsen mit Nutzung):** Tagesreflexion, Business/Ideen, Business/Recherche
-- **Letzte Aktivität:** 2026-04-15 – Niederlaendisch/Lernfortschritt + KI_Leitfaden_Niederlaendisch hinzugefügt
+- **Letzte Aktivität:** 2026-04-24 – 18 neue Seiten: 17 Buch-Notes (personalisiert) + Übersicht Bücher × Psychologisches Profil
 
 ---
 
