@@ -1,7 +1,7 @@
 # 📚 Wiki Index – Lukes' Second Brain
 
 *Katalog aller Seiten. Von Claude gepflegt. Bei jeder Änderung aktualisieren.*
-*Zuletzt aktualisiert: 2026-04-13 (wöchentlicher Lint)*
+*Zuletzt aktualisiert: 2026-04-15*
 
 ---
 
@@ -33,7 +33,8 @@
 
 | Seite | Beschreibung |
 |---|---|
-| *(wächst mit Berufsschul-Mitschriften und NX-Notizen)* | |
+| [[Ausbildung/Berufsschule/Niederlaendisch/Lernfortschritt]] | Niederländisch A1 – Sitzungsprotokoll, Schwachstellen, Hausaufgaben, Materialien |
+| [[Ausbildung/Berufsschule/Niederlaendisch/KI_Leitfaden_Niederlaendisch]] | KI-Tools für NL-Lernen – Tool-Vergleich, Aussprache-Guide, Wochenrhythmus, Prompts |
 
 ---
 
@@ -69,10 +70,10 @@
 
 ## 📊 Statistik
 
-- **Seiten gesamt:** 18
-- **Bereiche befüllt:** System, Business, Selbstentwicklung, Ressourcen
-- **Bereiche leer (wachsen mit Nutzung):** Ausbildung, Tagesreflexion, Business/Ideen, Business/Recherche
-- **Letzte Aktivität:** 2026-04-14 – Gaming/Spielstand_Transfer_PC_zu_Lemuroid hinzugefügt
+- **Seiten gesamt:** 20
+- **Bereiche befüllt:** System, Business, Selbstentwicklung, Ressourcen, Ausbildung
+- **Bereiche leer (wachsen mit Nutzung):** Tagesreflexion, Business/Ideen, Business/Recherche
+- **Letzte Aktivität:** 2026-04-15 – Niederlaendisch/Lernfortschritt + KI_Leitfaden_Niederlaendisch hinzugefügt
 
 ---
 

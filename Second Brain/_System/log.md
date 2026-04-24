@@ -5,6 +5,18 @@
 
 ---
 
+## [2026-04-15] ingest | Niederländisch-Lernbereich aufgebaut + KI-Leitfaden eingespeist
+
+**Was passiert ist:**
+- PDF-Guide "Niederländisch lernen mit KI" gelesen und zusammengefasst
+- Neuer Ordner `Ausbildung/Berufsschule/Niederlaendisch/` angelegt
+- `KI_Leitfaden_Niederlaendisch.md` erstellt: Tool-Vergleich, Aussprache-Guide, Wochenrhythmus, System-Prompt
+- `Lernfortschritt.md` erstellt: Profil, Schwachstellen, offene HAs, Materialien
+- index.md: Ausbildung-Bereich befüllt, Seitenanzahl 18 → 20
+- Neue Tools für Lukes identifiziert: ElevenLabs (Shadowing), Talkpal AI (Sprechtraining)
+
+---
+
 ## [2026-04-13] lint | Wöchentliche Strukturpflege
 
 **Geprüft:**
