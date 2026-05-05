@@ -1,7 +1,7 @@
 # 📚 Wiki Index – Lukes' Second Brain
 
 *Katalog aller Seiten. Von Claude gepflegt. Bei jeder Änderung aktualisieren.*
-*Zuletzt aktualisiert: 2026-04-24*
+*Zuletzt aktualisiert: 2026-05-04*
 
 ---
 
@@ -88,10 +88,10 @@
 
 ## 📊 Statistik
 
-- **Seiten gesamt:** 38
+- **Seiten gesamt:** 39
 - **Bereiche befüllt:** System, Business, Selbstentwicklung, Ressourcen, Ausbildung, Gaming
 - **Bereiche leer (wachsen mit Nutzung):** Tagesreflexion, Business/Ideen, Business/Recherche
-- **Letzte Aktivität:** 2026-04-24 – 18 neue Seiten: 17 Buch-Notes (personalisiert) + Übersicht Bücher × Psychologisches Profil
+- **Letzte Aktivität:** 2026-05-04 – Lint: Redirect-Stub `KI Guide – Grundlagen.md` aus Root nach Inbox verschoben
 
 ---
 

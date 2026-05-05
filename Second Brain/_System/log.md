@@ -5,6 +5,33 @@
 
 ---
 
+## [2026-05-04] lint | Wöchentliche Strukturpflege
+
+**Geprüft:**
+- 57 Markdown-Dateien gescannt (43 Wiki-Inhalt + READMEs/SKILL-Dateien)
+- 1 Problem gefunden
+
+**Änderungen:**
+- Stray-Datei aus Root verschoben: `KI Guide – Grundlagen.md` (Redirect-Stub, enthielt nur "→ Verschoben nach [[Ressourcen/KI_Guide]]") → `Inbox/KI_Guide_Grundlagen_REDIRECT_STUB.md`
+- TASKS.md: Kein Aufräumen nötig – Aktiv-Sektion ist leer, keine Task >2 Wochen unverändert aktiv
+- index.md: Datum auf 2026-05-04 aktualisiert, Seitenanzahl 39 bestätigt (korrekt)
+
+---
+
+## [2026-04-28] lint | Wöchentliche Strukturpflege
+
+**Geprüft:**
+- 57 Markdown-Dateien gescannt (43 Wiki-Inhalt + READMEs/SKILL-Dateien)
+- 3 Probleme gefunden
+
+**Änderungen:**
+- Stray-Datei aus Root verschoben: leere `14_Du_musst_nicht_von_allen_gemocht_werden.md` (0 B, Duplikat zur befüllten Version in `Selbstentwicklung/Bücher & Artikel/`) → `Inbox/14_Du_musst_nicht_von_allen_gemocht_werden_LEER_DUPLIKAT.md` (zum manuellen Sichten/Entsorgen, nicht gelöscht laut Lint-Regeln)
+- TASKS.md: 3 AzubiPass-Aufgaben unter „Aktiv" (seit 2026-04-10 unverändert, >2 Wochen) → in „Offen / Business – AzubiPass" verschoben
+- TASKS.md: „Daily Note Vorlage in Obsidian anlegen" als ✅ erledigt markiert (Datei existiert mit Inhalt unter `Ressourcen/Daily-Note-Vorlage.md`)
+- index.md: Seitenanzahl 38 → 39 korrigiert (tatsächlicher Stand der gelisteten Wiki-Seiten), Datum + letzte Aktivität aktualisiert
+
+---
+
 ## [2026-04-24] ingest | 17 Buch-Notes (personalisiert) + Übersicht angelegt
 
 **Was passiert ist:**

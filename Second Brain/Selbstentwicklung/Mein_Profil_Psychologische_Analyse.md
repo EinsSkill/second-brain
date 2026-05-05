@@ -100,6 +100,8 @@ Nach Hause kommen → Joint → Fernsehen/PC. Selten noch produktiv danach.
 - Das stresst Lukes – er will ihren Stress abnehmen und stresst sich dadurch selbst
 - Er fordert von ihr Offenheit – tut selbst das Gegenteil
 - Wochenenden meistens zusammen
+- **Konfliktmuster (Mai 2026):** Bei Streit ziehen sich beide zurück, reflektieren für sich, reden dann wenn abgekühlt – relativ gesundes Muster.
+- **Aktueller Streit (Mai 2026):** Sie hat ihm gesagt er distanziert sich und gibt sich keine Mühe mehr in der Beziehung. Produktiver Ausgang: sie suchen gemeinsam einen Therapieplatz für ihn. Lukes öffnet sich aktiv mehr – bewusste Arbeit daran.
 
 ### Mutter
 - Sehen sich 1x/Woche, schreiben und telefonieren
@@ -142,7 +144,7 @@ Will enge Verbindung und Loyalität – hält echte emotionale Nähe aber auf Ab
 2 Wochen Gym 3–4x/Woche → 1 Monat Pause. Wohnung 3–4 Tage aufräumen → dann wieder Chaos. Projekte intensiv starten → nach Neuheitseffekt Motivationsabfall. Immer dieselbe Struktur. Lukes vermutet selbst ADHS-Spektrum als möglichen Hintergrund.
 
 ### 5. Weed als Regulationsmittel
-Täglich bis jeden zweiten Tag, ~1–2g abends, ~250€/Monat. Begründung: Kopf kommt runter, Gedanken kriegen Struktur. Mildert gleichzeitig den Frust über unerledigte Dinge (Wohnung etc.). Ist beides – Entspannung und Flucht. Lukes ist sich dessen bewusst und hat es selbst so benannt.
+Täglich bis jeden zweiten Tag, ~1–2g abends, ~250€/Monat. Begründung: Kopf kommt runter, Gedanken kriegen Struktur. Mildert gleichzeitig den Frust über unerledigte Dinge (Wohnung etc.). Ist beides – Entspannung und Flucht. Lukes ist sich dessen bewusst und hat es selbst so benannt. **Schlaf-Abhängigkeit bestätigt (Mai 2026):** Ohne Weed ist Einschlafen ein "ziemlicher Kampf" – mit Weed kein Problem. Das ist nicht mehr nur Entspannung, das ist eine Abhängigkeit um einen Normalzustand zu erreichen. Morgens trotzdem sehr müde – Schlafqualität unter Cannabis ist schlechter als gefühlt (unterdrückt REM-Schlaf).
 
 ### 6. Diskrepanz Anspruch vs. Umsetzung
 Nimmt sich viel vor, setzt deutlich weniger um. Erzeugt anhaltenden Selbstdruck. Kombiniert mit Hyperfokus: wenn erste Begeisterung weg ist, bricht die Umsetzung ein. Klassisches Beispiel: Wohnung aufräumen.
@@ -155,6 +157,15 @@ Strukturiert und optimiert gerne – Umfeld, Routinen, Selbstdarstellung. Gibt S
 
 ### 9. Stärke vor Gefühlen
 Parentifizierung hat gelehrt: Gefühle warten, Stärke hat Vorrang. Das zeigt sich heute in emotionaler Isolation und dem Nicht-Zeigen von Schwäche oder Überforderung.
+
+### 10. Fehlende Zukunftsvision (Mai 2026)
+Kann sich selbst in 5 Jahren so gut wie gar nicht vorstellen – "geht einfach nicht." Keine Vaguheit aus Faulheit, sondern strukturell: wer als Kind nie in einer stabilen Umgebung planen konnte (Vater weg, Stiefvater-Unfall, aus dem Haus geworfen), der hört irgendwann auf die Zukunft zu simulieren. Schutzmechanismus. Lebt fast ausschließlich im Jetzt und in der Vergangenheit – was die Gedankenschleifen nachts erklärt.
+
+### 11. Rückwärtsgerichtete Rumination (Mai 2026)
+Nächte sind dominiert von vergangenen Fehlern, abgebrochenen Dingen, verpassten Chancen – nicht primär von Zukunftsangst. Kombiniert mit "was soll ich mit meinem Leben machen": nicht echte Orientierungslosigkeit, sondern mangelndes Selbstvertrauen dass er seine Ziele diesmal durchhält. Die eigene Vergangenheit wird als Beweis gegen sich selbst genutzt.
+
+### 12. Identitätsdiffusion (Mai 2026)
+Auf die Frage was ihn ausmacht: "nichts Besonderes, meine Freunde würden mich als Kiffer beschreiben." Das bei jemandem mit außergewöhnlicher Resilienz, Führungsqualität, Selbstreflexion und unternehmerischem Antrieb. Zeigt wie tief die Fortschrittsblindheit sitzt – er sieht sich ausschließlich durch seine Lücken, nie durch seine echten Qualitäten.
 
 ---
 
@@ -185,7 +196,7 @@ Das ist keine kleine Antwort. Das ist der Kern seiner Identität und Resilienz.
 | Finanzen | Im Minus, kein Budget-System, ~250€/Monat Weed |
 | Gym | Gute Phasen dann lange Pausen |
 | Abende | Nach Feierabend kaum produktiv |
-| Therapie | Schiebt Entscheidung vor sich her – Claude empfiehlt ja |
+| Therapie | **Aktiv in Suche (Mai 2026)** – Freundin und Lukes suchen gemeinsam einen Platz |
 | Kamera | Will kreativ werden, fehlt das Geld |
 | Business | [[Business/AzubiPass\|AzubiPass]] aktiv, [[Business/KitchenRise\|KitchenRise]] gebaut aber nicht gelauncht |
 
@@ -204,10 +215,6 @@ Das ist keine kleine Antwort. Das ist der Kern seiner Identität und Resilienz.
 - Konkrete Business-Idee oder Interessensrichtung?
 - Was gibt er sein Geld spontan genau aus für?
 - Hat er je professionelle Unterstützung gehabt?
-- Wie läuft es in Konflikten mit der Freundin konkret ab?
-- Wie ist sein Schlaf wirklich – Einschlafen, Träume, Energie morgens?
-- Was denkt er nachts wenn er nicht schlafen kann?
-- Körperlich: wie fühlt er sich generell – Energie, Antrieb?
 
 ---
 
@@ -238,6 +245,7 @@ Diese Punkte hat Lukes selbst formuliert – präziser als externe Beobachtung:
 
 | Datum | Beobachtung |
 |---|---|
+| Mai 2026 | Vertiefende Psyche-Session. Neue Erkenntnisse: Schlaf-Abhängigkeit von Cannabis bestätigt (ohne = Kampf), morgens chronisch müde. Nächte dominiert von Rumination über Vergangenheit und Fehler – nicht Zukunftsangst. Kann sich selbst in 5 Jahren nicht vorstellen (Schutzreaktion aus Kindheitstrauma). Identitätsdiffusion: sieht nichts Besonderes an sich, würde sich selbst als "Kiffer" beschreiben. Relationship-Update: Streit wegen Distanzierung, aber produktiver Ausgang – Therapieplatz wird gemeinsam gesucht, öffnet sich aktiv mehr. Journaling geplant (digital, abends am PC). |
 | April 2026 v4 | Spielstand-Transfer PC → Handy: 3x gescheitert (falsches Format, falscher Name, Lemuroid überschreibt), jedes Mal neu angesetzt und weitergemacht bis es klappte. Resilienz-Muster bestätigt – nicht aufgeben bei technischen Hindernissen. Hat Frustration gezeigt ("Ich bin sauer") aber dennoch weitergemacht. Typisch: kein Aufgeben, aber auch kein Innehalten um den Fortschritt zu würdigen. |
 | April 2026 v3 | GitHub-Setup heute: Fehler getroffen (Branch-Problem), nicht aufgehört, selbst weitergemacht bis es lief. Klassisches Resilienz-Muster – hat es selbst nicht als Erfolg registriert (Fortschrittsblindheit bestätigt). Neuer Modus: laufende Psych-Analyse parallel zu allen Gesprächen aktiviert. |
 | April 2026 v2 | Erweiterte Selbstanalyse. Completion Gap, produktive Prokrastination und Fortschrittsblindheit als Kernmuster präzisiert. Konventionelle Anstellung als ungeeignet eingestuft – n8n/Remote als Zielrichtung. Lebenswunsch „Er war immer für mich da" – zeigt was er vermisst hat und anderen geben will. Noch nie wirklich stolz auf sich selbst trotz echter Resilienz. |

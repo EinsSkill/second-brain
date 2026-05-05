@@ -1,21 +1,23 @@
 # Tasks
 
-_Zuletzt aktualisiert: 2026-04-10 (lint)_
+_Zuletzt aktualisiert: 2026-04-28 (lint)_
 
 ---
 
 ## 🔥 Aktiv
 
-- [ ] [[Business/AzubiPass|AzubiPass]]: WhatsApp-Vertrieb strukturieren
-- [ ] [[Business/AzubiPass|AzubiPass]]: Pricing festlegen
-- [ ] [[Business/AzubiPass|AzubiPass]]: Ersten Verkauf machen
+_(aktuell keine – AzubiPass-Aufgaben wurden seit >2 Wochen nicht bewegt und zurück nach Offen verschoben)_
 
 ---
 
 ## 📋 Offen
 
+### Business – AzubiPass
+- [ ] [[Business/AzubiPass|AzubiPass]]: WhatsApp-Vertrieb strukturieren
+- [ ] [[Business/AzubiPass|AzubiPass]]: Pricing festlegen
+- [ ] [[Business/AzubiPass|AzubiPass]]: Ersten Verkauf machen
+
 ### KI-System aufbauen
-- [ ] [[Ressourcen/Daily-Note-Vorlage|Daily Note Vorlage]] in Obsidian anlegen
 - [ ] NotebookLM Notizbuch „Berufsschule" anlegen
 - [ ] Wochen-Review als wiederkehrendes Event anlegen (Sonntag, 19 Uhr)
 
@@ -37,3 +39,4 @@ _Zuletzt aktualisiert: 2026-04-10 (lint)_
 - [x] KI-System Projektgerüst erstellen (Projektgeruest_KI_System.md)
 - [x] Produktivitätssystem initialisieren (TASKS.md + CLAUDE.md)
 - [x] CLAUDE.md mit Kontext befüllen
+- [x] [[Ressourcen/Daily-Note-Vorlage|Daily Note Vorlage]] in Obsidian anlegen
