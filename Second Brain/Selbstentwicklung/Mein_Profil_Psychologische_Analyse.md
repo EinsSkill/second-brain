@@ -18,7 +18,7 @@
 | Wohnort | Neuss, NRW |
 | Körpergröße | 1,73m |
 | Gewicht | 63–70kg (war mal 87kg – 25kg abgenommen) |
-| Beziehung | Feste Freundin, zusammen seit 16.07.2023 |
+| Beziehung | Feste Freundin, zusammen seit 17.06.2023 |
 | Wohnsituation | Eigene Wohnung, alleine |
 | Beruf | Azubi KfB, NX Logistics Bedburg, 1. Jahr |
 | Arbeitszeiten | Mo/Do 8–16:30 Uhr, Fr 8–15:30 Uhr |
