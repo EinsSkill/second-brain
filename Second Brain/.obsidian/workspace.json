@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unbenannt.md",
+                "file": "Selbstentwicklung/Mein_Profil_Psychologische_Analyse.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Unbenannt"
+              "title": "Mein_Profil_Psychologische_Analyse"
             }
           }
         ]
@@ -41,7 +41,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "byModifiedTime",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Dateiexplorer"
@@ -154,22 +154,31 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Unbenannt.md",
+                "file": "Selbstentwicklung/Mein_Profil_Psychologische_Analyse.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Gliederung von Unbenannt"
+              "title": "Gliederung von Mein_Profil_Psychologische_Analyse"
+            }
+          },
+          {
+            "id": "8326006af93a3d7e",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 277.5,
-    "collapsed": true
+    "width": 277.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,6 +196,11 @@
   },
   "active": "e422bc27414007e4",
   "lastOpenFiles": [
+    "Selbstentwicklung/Mein_Profil_Psychologische_Analyse.md.tmp.13092.27de84834ed5",
+    "Unbenannt.canvas",
+    "Ausbildung/NX Logistics/README.md",
+    "Unbenannt 1.base",
+    "Unbenannt.base",
     "Unbenannt.md",
     "_Archive/14_Du_musst_nicht_von_allen_gemocht_werden_LEER_DUPLIKAT.md",
     "TASKS.md",
@@ -218,10 +232,6 @@
     "Ressourcen/GitHub-Skills/theme-factory/SKILL.md",
     "Selbstentwicklung/Interessen-und-Tech.md",
     "Gaming/Spielstand_Transfer_PC_zu_Lemuroid.md.tmp.8578.1776125939042",
-    "Ressourcen/Prompt-Vorlagen.md",
-    "CLAUDE.md",
-    "_System/index.md.tmp.8332.1776125805835",
-    "_System/index.md.tmp.8332.1776125803049",
-    "KI Guide – Grundlagen.md"
+    "Ressourcen/Prompt-Vorlagen.md"
   ]
 }
