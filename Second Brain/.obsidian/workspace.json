@@ -11,10 +11,14 @@
             "id": "ae27af5fd6c66518",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph-Ansicht"
+              "type": "markdown",
+              "state": {
+                "file": "Selbstentwicklung/Bücher & Artikel/16_The_Mom_Test.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "16_The_Mom_Test"
             }
           }
         ]
@@ -150,12 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Selbstentwicklung/Bücher & Artikel/16_The_Mom_Test.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Gliederung"
+              "title": "Gliederung von 16_The_Mom_Test"
             }
           }
         ],
@@ -181,6 +186,10 @@
   },
   "active": "ae27af5fd6c66518",
   "lastOpenFiles": [
+    "Selbstentwicklung/Mein_Profil_Psychologische_Analyse.md.tmp.10924.dc02ad2e1fb1",
+    "CLAUDE.md.tmp.18840.e7b2bc7da332",
+    "Selbstentwicklung/Mein_Profil_Psychologische_Analyse.md.tmp.6624.010d153fc550",
+    "Selbstentwicklung/Mein_Profil_Psychologische_Analyse.md.tmp.6624.02a1decf9842",
     "_System/index.md",
     "Selbstentwicklung/Bücher & Artikel/00_Übersicht_Bücher_x_Psychologisches_Profil.md",
     "Selbstentwicklung/Bücher & Artikel/17_100M_Offers.md",
@@ -210,12 +219,8 @@
     "_System/index.md.tmp.8332.1776125805835",
     "_System/index.md.tmp.8332.1776125803049",
     "_System/index.md.tmp.8332.1776125800628",
-    "Gaming/Spielstand_Transfer_PC_zu_Lemuroid.md.tmp.8332.1776125790100",
     "KI Guide – Grundlagen.md",
     "TASKS.md",
-    "Gaming/Pokemon_Unbound_Top4.md.tmp.6438.1776093320014",
-    "Gaming/Pokemon_Unbound_Top4.md.tmp.6438.1776093316094",
-    "Ressourcen/GitHub-Skills/frontend-design/SKILL.md",
-    "Business/Aktionen/Lukes_Daily.md"
+    "Ressourcen/GitHub-Skills/frontend-design/SKILL.md"
   ]
 }

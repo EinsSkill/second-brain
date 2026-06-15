@@ -120,9 +120,11 @@ Nach Hause kommen → Joint → Fernsehen/PC. Selten noch produktiv danach.
 | Alter | Ereignis |
 |---|---|
 | 3 | Leiblicher Vater verstorben |
-| 11 | Schwerer Unfall des Stiefvaters → Alkoholsucht, Depression → Lukes übernimmt Haushalt (Parentifizierung) |
-| ~19 | Mutter zieht aus, Lukes wird aus Elternhaus gewiesen → sofort eigene Wohnung ohne Vorbereitung |
-| ~19 | Verlust der Ausbildungsstelle (Fahrzeuglackierung) während Probezeit → Neustart kaufmännisch |
+| ~11 | Schwerer Autounfall des Stiefvaters → lange Krankenhausaufenthalte, körperliche Erholung, aber Depression + Alkoholsucht als Folge → Lukes übernimmt zunehmend Verantwortung im Haushalt (Parentifizierung) |
+| ~18 | Mutter verlässt Stiefvater und zieht mit Lukes' zwei Schwestern aus |
+| Juni 2024 (~19) | Stiefvater wirft Lukes aus dem Elternhaus → kommt bei Freundin und deren Eltern unter |
+| Dez. 2024 (~19) | Verlust der ersten Ausbildungsstelle (Fahrzeuglackierung) |
+| Anfang 2025 | Neustart: kaufmännische Ausbildung KfB bei NX Logistics, eigene Wohnung |
 | Heute | Stabile Beziehung, eigene Wohnung, Ausbildung läuft – rückblickend positiver Neustart |
 
 **Wichtig:** Er erhält eine UV-Rente (561€/Monat) – wahrscheinlich im Zusammenhang mit einem der frühen Schicksalsschläge. Das ist ein fixer, verlässlicher Einkommensteil.
@@ -245,6 +247,7 @@ Diese Punkte hat Lukes selbst formuliert – präziser als externe Beobachtung:
 
 | Datum | Beobachtung |
 |---|---|
+| Juni 2026 | **Korrektur Biographie:** Stiefvater ist nicht verstorben – er hatte einen schweren Autounfall, erholte sich körperlich weitgehend, entwickelte aber Depression + Alkoholsucht. Mutter verließ ihn mit den Schwestern als Lukes ~18 war. **Exakte Timeline:** Juni 2024 → Stiefvater wirft Lukes raus, kommt bei Freundin + deren Eltern unter. Dez. 2024 → Verlust der ersten Ausbildung (Fahrzeuglackierung). Frühjahr 2025 → Neustart KfB + eigene Wohnung. Das ist alles innerhalb von ~12 Monaten passiert und liegt weniger als 2 Jahre zurück – deutlich frischer als bisherige Formulierung suggeriert hat. |
 | Mai 2026 (06.05.) | Journal-Eintrag: Berufsschule, Präsentation gehalten → sehr gutes Lehrerfeedback. Tag ohne Weed durchgehalten trotz sehr schlechtem Schlaf und Tagesmüdigkeit (Mittagsschlaf notwendig). Abends Overwatch mit Freunden (Ben, Tom). Gefühl am Abend: "ziemlich leer" – kein Stolz über die gute Präsi, kein erkennbares Selbstgefühl. Bestätigt Muster 7 (Selbstwert an Leistung geknüpft, aber Erfolge landen nicht). Schlechter Schlaf ohne Cannabis setzt sich fort – Entzugseffekt auf Schlafqualität aktiv. **"Leer" ist kein Ausnahmetag – Lukes bestätigt dass das sehr oft so ist, seit ca. 1,5 Jahren (Herbst 2024).** Anhedonie als Dauerzustand bestätigt. Korreliert mit Zeitraum intensiveren Cannabis-Konsums. Natürliche Belohnungen (Lob, Erfolg, soziale Abende) lösen kaum noch echte positive Emotion aus – Dopamin-Baseline wahrscheinlich chronisch gesenkt. Er weiß vermutlich nicht mehr wie sich echtes Wohlgefühl anfühlt. Therapeutisch dringend relevant. |
 | Mai 2026 | Vertiefende Psyche-Session. Neue Erkenntnisse: Schlaf-Abhängigkeit von Cannabis bestätigt (ohne = Kampf), morgens chronisch müde. Nächte dominiert von Rumination über Vergangenheit und Fehler – nicht Zukunftsangst. Kann sich selbst in 5 Jahren nicht vorstellen (Schutzreaktion aus Kindheitstrauma). Identitätsdiffusion: sieht nichts Besonderes an sich, würde sich selbst als "Kiffer" beschreiben. Relationship-Update: Streit wegen Distanzierung, aber produktiver Ausgang – Therapieplatz wird gemeinsam gesucht, öffnet sich aktiv mehr. Journaling geplant (digital, abends am PC). |
 | April 2026 v4 | Spielstand-Transfer PC → Handy: 3x gescheitert (falsches Format, falscher Name, Lemuroid überschreibt), jedes Mal neu angesetzt und weitergemacht bis es klappte. Resilienz-Muster bestätigt – nicht aufgeben bei technischen Hindernissen. Hat Frustration gezeigt ("Ich bin sauer") aber dennoch weitergemacht. Typisch: kein Aufgeben, aber auch kein Innehalten um den Fortschritt zu würdigen. |
