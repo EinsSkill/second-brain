@@ -178,3 +178,10 @@ Nach der Session:
 ---
 
 *Nächster Schritt: Lukes' Rolle & Heroes klären → personalisiertes Training-Protokoll erstellen*
+
+---
+
+## Verknüpfte Seiten
+
+- [[Gaming/Spielstand_Transfer_PC_zu_Lemuroid]] – Gaming-Bereich
+- [[Selbstentwicklung/Interessen-und-Tech]] – Gaming unter Interessen

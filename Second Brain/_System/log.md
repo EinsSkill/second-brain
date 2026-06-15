@@ -5,6 +5,23 @@
 
 ---
 
+## [2026-06-16] update | Vault-Aufräumen & neue Seiten
+
+**Was passiert ist:**
+- `Overwatch Coach Wissen.md` aus falschem Root (`/Second Brain/`) nach `Gaming/Overwatch_Coach_Wissen.md` verschoben + Wikilinks gesetzt
+- `Unbenannt.md` (leere Datei) gelöscht
+- `_Archive/` vollständig geleert: 2 tote Dateien endgültig entsorgt (Duplikat + Redirect-Stub)
+- `Business/n8n.md` angelegt: 4-Phasen-Plan, Ressourcen, Wikilinks zu Lukes_Daily + AzubiPass
+- `Selbstentwicklung/Calisthenics.md` angelegt: Ziele, 4er-Split Trainingsplan, Fortschritts-Log-Tabelle
+- `Interessen-und-Tech.md` mit Rücklinks zu n8n + Calisthenics erweitert
+- `TASKS.md`: n8n-Link korrigiert, Calisthenics verlinkt, Archive-Task als erledigt markiert
+- `_System/index.md`: 3 neue Seiten eingetragen (n8n, Calisthenics, OW2), Seitenanzahl 40 → 43
+
+**Änderungen gesamt:**
+- 4 Dateien gelöscht, 2 neue Seiten erstellt, 1 verschoben, 4 bestehende aktualisiert
+
+---
+
 ## [2026-06-14] lint | Wöchentliche Strukturpflege
 
 **Geprüft:**

@@ -1,7 +1,7 @@
 # 📚 Wiki Index – Lukes' Second Brain
 
 *Katalog aller Seiten. Von Claude gepflegt. Bei jeder Änderung aktualisieren.*
-*Zuletzt aktualisiert: 2026-06-14*
+*Zuletzt aktualisiert: 2026-06-16*
 
 ---
 
@@ -27,6 +27,7 @@
 | [[Business/Worksheet-Projekt]] | Mathe-Portfolio Arbeitsblätter für Lehramt (Auftragsarbeit) |
 | [[Business/Masterplan – AzubiPass & Worksheet-Projekt]] | Kombinierter Masterplan: Worksheet für sofortiges Einkommen, AzubiPass für passives |
 | [[Business/Aktionen/Lukes_Daily]] | Make.com Automation – tägliche Morgenzeitung via Telegram, läuft ✅ |
+| [[Business/n8n]] | n8n 4-Phasen-Plan – Automatisierungen als Remote-Einkommensweg |
 
 ---
 
@@ -45,6 +46,7 @@
 |---|---|
 | [[Selbstentwicklung/Mein_Profil_Psychologische_Analyse]] | Lebendes psychologisches Profil – Persönlichkeit, Muster, Biografie, Baustellen |
 | [[Selbstentwicklung/Interessen-und-Tech]] | Hobbies, Style, Musik, Gaming, Tech-Stack, Sprachen |
+| [[Selbstentwicklung/Calisthenics]] | Calisthenics-Projekt – Ziele, 4er-Split, Fortschritts-Log |
 | [[Selbstentwicklung/Bücher & Artikel/00_Übersicht_Bücher_x_Psychologisches_Profil]] | Welches Buch trifft welches Muster – Übersicht + Wenn-dann-Navigation |
 | [[Selbstentwicklung/Bücher & Artikel/01_Atomic_Habits]] | James Clear – Systeme, Identität, Hyperfokus-Falle, Completion Gap |
 | [[Selbstentwicklung/Bücher & Artikel/02_Deep_Work]] | Cal Newport – Deep Work Blocks, Abend-Ritual, Attention Residue |
@@ -72,6 +74,7 @@
 |---|---|
 | [[Gaming/Pokemon_Unbound_Top4]] | Top 4 Vorbereitung – Team, Kampfplan, Mega Steine, TM-Locations |
 | [[Gaming/Spielstand_Transfer_PC_zu_Lemuroid]] | Anleitung: .sav → .srm konvertieren, per USB auf Handy übertragen |
+| [[Gaming/Overwatch_Coach_Wissen]] | OW2 Coach-Wissensbasis – Meta, Fundamentals, Ranked-Strategie, Mental |
 
 ---
 
@@ -89,10 +92,10 @@
 
 ## 📊 Statistik
 
-- **Seiten gesamt:** 40
+- **Seiten gesamt:** 43
 - **Bereiche befüllt:** System, Business, Selbstentwicklung, Ressourcen, Ausbildung, Gaming
 - **Bereiche leer (wachsen mit Nutzung):** Tagesreflexion, Business/Ideen, Business/Recherche
-- **Letzte Aktivität:** 2026-06-14 – Lint: Wöchentliche Strukturpflege, 58 Dateien gescannt, keine Probleme gefunden
+- **Letzte Aktivität:** 2026-06-16 – Vault-Aufräumen: 3 neue Seiten (n8n, Calisthenics, OW2), 4 tote Dateien bereinigt, Index auf 43 Seiten aktualisiert
 
 ---
 

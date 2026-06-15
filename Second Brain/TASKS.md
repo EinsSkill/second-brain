@@ -1,6 +1,6 @@
 # Tasks
 
-_Zuletzt aktualisiert: 2026-05-24 (lint)_
+_Zuletzt aktualisiert: 2026-06-16_
 
 ---
 
@@ -24,18 +24,18 @@ _(leer)_
 - [ ] [[Business/AzubiPass|AzubiPass]]: Pricing festlegen
 - [ ] [[Business/KitchenRise|KitchenRise]]: Status klären – wo steht die App gerade wirklich?
 - [ ] [[Business/Worksheet-Projekt|Worksheet-Projekt]]: Weitere Blätter erstellen
-- [ ] [[Selbstentwicklung/Interessen-und-Tech|n8n]]: Lernphase weitermachen (4-Phasen-Plan)
+- [ ] [[Business/n8n|n8n]]: Lernphase weitermachen (4-Phasen-Plan)
 
 ### Ausbildung & Schule
 - [ ] Prüfungsvorbereitung mit NotebookLM testen
 - [ ] Wichtige Fachbegriffe KfB in Obsidian ablegen
 
 ### Selbstentwicklung
-- [ ] Calisthenics starten (Ziel: 10 Klimmzüge / 25 Liegestütze / 15 Dips / 40 Squats)
+- [ ] [[Selbstentwicklung/Calisthenics|Calisthenics]] starten (Ziel: 10 Klimmzüge / 25 Liegestütze / 15 Dips / 40 Squats)
 - [ ] Wochen-Review als wiederkehrendes Event anlegen (Sonntag, 19 Uhr)
 
 ### Second Brain
-- [ ] Inbox-Dateien final entsorgen (2 tote Dateien liegen in `_Archive/`, warten auf Entscheidung)
+- [x] Inbox-Dateien final entsorgen (`_Archive/` geleert 2026-06-16)
 
 ### KI-System
 - [ ] NotebookLM Notizbuch „Berufsschule" anlegen
@@ -44,6 +44,7 @@ _(leer)_
 
 ## ✅ Erledigt
 
+- [x] Inbox-Dateien final entsorgen (`_Archive/` geleert 2026-06-16)
 - [x] Claude Cowork einrichten
 - [x] Second Brain Grundstruktur anlegen
 - [x] CLAUDE.md zu echtem L0 umgebaut (2026-05-07)

@@ -75,6 +75,8 @@ aktualisiert: 2026-04-10
 - [[_System/Project_Instructions]] – Vollständiges Profil
 - [[Business/AzubiPass]] – Haupt-Business-Projekt
 - [[Business/KitchenRise]] – App-Projekt (Capacitor/Vite)
+- [[Business/n8n]] – n8n Lernphase & Remote-Einkommen
+- [[Selbstentwicklung/Calisthenics]] – Körperliches Training
 
 ---
 
