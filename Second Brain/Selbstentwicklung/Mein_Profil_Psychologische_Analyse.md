@@ -212,6 +212,23 @@ Das ist keine kleine Antwort. Das ist der Kern seiner Identität und Resilienz.
 
 ---
 
+## 🔑 Kern-Erkenntnis (Juni 2026 – Session)
+
+**"Glaubst du dass du es verdienst dass jemand bei dir bleibt?"**
+→ Antwort: *"Für mich selbst... nein."*
+
+Das ist der tiefste Kern. Nicht Weed, nicht Completion Gap, nicht Leere – sondern das Gefühl es nicht zu verdienen geliebt zu werden. Erklärt: Selbstsabotage in Beziehungen, emotionale Isolation, Unfähigkeit stolz auf sich zu sein, alles alleine tragen.
+
+Gleichzeitig: auf die Frage was er einem besten Freund sagen würde der das Gleiche fühlt → *"Das ist doch kompletter Schwachsinn, du bist ein unfassbar guter und warmherziger Mensch."* – Er weiß die Antwort. Er kann sie nur nicht auf sich selbst anwenden.
+
+**Selbstsabotage in Beziehungen:** Streit suchen obwohl er Streit hasst, Rückzug, fast fremdgegangen in erster Langzeitbeziehung. Muster: wenn Nähe zu groß wird → Sabotage → Kontrolle über den Verlust. Zwei Beziehungen daran gescheitert. Aktuell in jetziger Beziehung auch erkennbar – merkt es manchmal selbst, manchmal erst spät.
+
+**Dunkle Gedanken:** Gedanken nicht mehr da zu sein, was wäre wenn er weg wäre – kommen und gehen, keine konkreten Pläne. Mit 16 geritzt – nie tief, aber Zeichen von damaligem Druck ohne Auslass. Heute kein Verlangen danach aber "auf andere Art selbstzerstörerisch" (Weed, Finanzen, Sabotage, Selbsthass).
+
+**Einsamkeit damit:** Kein einziger Mensch in seinem Leben kennt diese Seite. Trägt alles komplett alleine. Therapie aufgeschoben trotz Wissen dass er sie braucht.
+
+---
+
 ## ❓ Noch offene Fragen
 
 - Konkrete Business-Idee oder Interessensrichtung?
