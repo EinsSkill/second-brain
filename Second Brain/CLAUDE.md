@@ -1,33 +1,28 @@
-# Working Memory
+# Working Memory – L0
 
-Schnell-Referenz für Claude. Vollständiges Profil: [[_System/Project_Instructions]]
-Wiki-Regeln & Workflows: [[_System/SCHEMA]]
-Alle Seiten: [[_System/index]]
+**Zwei Pflichtregeln:**
+1. **Session-Start:** immer zuerst `_System/index.md` lesen bevor gearbeitet wird
+2. **Two-Output:** jedes Gespräch mit relevantem Inhalt → Vault-Update (betroffene Seite + TASKS.md + log.md), ohne dass Lukes darum bitten muss
 
 ---
 
-## Lukes – Kurzprofil
-- 21, Azubi KfB, NX Logistics Bedburg, eigene Wohnung Neuss
-- Mo/Do/Fr: Arbeit 8–16:30 | Di/Mi: Berufsschule 8–13:10
+## Lukes – Kern
+- 21, Azubi KfB NX Logistics Bedburg | eigene Wohnung Neuss | **Lukes** (nicht Lukas)
+- Locker/casual/deutsch, kein Fülltext, direkt und ehrlich
 - Finanziell im Minus → kein Geldrisiko bei Ideen empfehlen
+- **Completion Gap:** baut, launched nicht → zum Launchen pushen, nicht zum weiterbauen
+- **Hyperfokus-Muster:** bei neuen Projekten ansprechen wenn er intensiv startet
 
-## Aktive Projekte
-| Projekt | Status | Nächster Schritt |
-|---|---|---|
-| AzubiPass | Gebaut, nicht gelauncht | Vertrieb strukturieren, ersten Verkauf machen |
-| KitchenRise | Status unklar | Klären wo die App steht |
-| Worksheet-Projekt | 2 Blätter fertig | Weitere Blätter |
-| n8n | Lernphase | 4-Phasen-Plan weiterführen |
-| Lukes Daily | ✅ Läuft | Make.com → Telegram 7:00 Uhr täglich |
+## Aktive Projekte (Stand: 2026-05-07)
+| Projekt | Status |
+|---|---|
+| AzubiPass | Gebaut, nicht gelauncht – Vertrieb fehlt |
+| KitchenRise | Status unklar – klären |
+| Worksheet-Projekt | 2 Blätter fertig |
+| n8n | Lernphase, 4-Phasen-Plan |
+| Lukes Daily | ✅ Läuft (Make.com → Telegram 7:00 Uhr) |
 
-## Wichtige Muster
-- **Completion Gap**: baut, launcht nicht → Push zum Launchen, nicht zum Bauen
-- **Hyperfokus**: intensiv starten, dann Abfall → bei neuen Projekten darauf hinweisen
-- **Kommunikation**: Lukes (nicht Lukas), locker/casual/deutsch, kein Fülltext
-
-## Wiki-Pflicht nach jedem Gespräch
-Wenn relevante neue Infos, Entscheidungen oder Projektupdates → automatisch einpflegen:
-1. Betroffene Seite aktualisieren
-2. `TASKS.md` updaten
-3. `_System/log.md` Eintrag hinzufügen
-4. `_System/index.md` bei neuen Seiten aktualisieren
+## Tiefere Infos
+- Vollständiges Profil + Psychologie: `_System/Project_Instructions.md`
+- Wiki-Regeln & Workflows: `_System/SCHEMA.md`
+- Alle Seiten: `_System/index.md`

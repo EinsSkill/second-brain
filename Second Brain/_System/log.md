@@ -5,6 +5,89 @@
 
 ---
 
+## [2026-06-14] lint | Wöchentliche Strukturpflege
+
+**Geprüft:**
+- 58 Dateien gescannt
+- Keine Probleme gefunden
+
+**Änderungen:**
+- index.md: Datum auf 2026-06-14 aktualisiert, Letzte-Aktivität-Zeile aktualisiert
+- TASKS.md: Kein Aufräumen nötig – Aktiv + Diese Woche leer, Offen-Tasks sind langfristige offene Punkte ohne klare Erledigung erkennbar
+- Struktur: Keine Stray-Dateien im Root, alle 40 Wiki-Seiten korrekt im Index, Gaming/-Ordner weiterhin korrekt als bekannte Erweiterung
+
+---
+
+## [2026-06-07] lint | Wöchentliche Strukturpflege
+
+**Geprüft:**
+- 58 Dateien gescannt
+- 1 Problem gefunden: neue Seite nicht im Index
+
+**Änderungen:**
+- index.md: `Business/Masterplan – AzubiPass & Worksheet-Projekt` eingetragen (fehlte seit Erstellung)
+- index.md: Seitenanzahl von 39 auf 40 aktualisiert, Datum + Letzte-Aktivität-Zeile aktualisiert
+- TASKS.md: Keine Änderungen nötig – Aktiv + Diese Woche leer, alle Offen-Tasks bereits korrekt eingeordnet
+
+---
+
+## [2026-05-31] lint | Wöchentliche Strukturpflege
+
+**Geprüft:**
+- 59 Dateien gescannt (39 Wiki-Seiten + READMEs/SKILLs/Archiv/System)
+- Keine Probleme gefunden
+
+**Änderungen:**
+- index.md: Datum auf 2026-05-31 aktualisiert, Letzte-Aktivität-Zeile aktualisiert
+- TASKS.md: Kein Aufräumen nötig – Aktiv und Diese Woche bereits leer, keine Offen-Tasks >2 Wochen in aktivem Status
+- Struktur: Keine stray files im Root (CLAUDE.md + TASKS.md gehören dort hin), alle 39 Wiki-Seiten korrekt im Index verzeichnet
+
+---
+
+## [2026-05-24] lint | Wöchentliche Strukturpflege
+
+**Geprüft:**
+- 57 Dateien gescannt
+- 1 Problem gefunden (veraltete Tasks)
+
+**Änderungen:**
+- TASKS.md: 1 Aktiv-Task (AzubiPass "Ersten Verkauf machen") + 4 "Diese Woche"-Tasks → alle >17 Tage alt, in "Offen" verschoben; Aktiv + Diese Woche jetzt leer
+- TASKS.md: "Inbox-Dateien entsorgen" in neue Sektion "Second Brain" unter Offen verschoben (Entscheidung weiterhin offen)
+- index.md: Datum auf 2026-05-24 aktualisiert, Letzte-Aktivität-Zeile aktualisiert
+- Keine Struktur-Probleme: keine Stray-Dateien im Root, alle 39 Wiki-Seiten korrekt im Index
+
+---
+
+## [2026-05-14] lint | Wöchentliche Strukturpflege
+
+**Geprüft:**
+- 57 Dateien gescannt (39 Wiki-Seiten + READMEs/SKILL-Dateien/Archiv)
+- Keine Probleme gefunden
+
+**Änderungen:**
+- index.md: Datum auf 2026-05-14 aktualisiert, Letzte-Aktivität-Zeile aktualisiert
+- TASKS.md: Kein Aufräumen nötig – Aktiv-Task (AzubiPass Erster Verkauf) erst 7 Tage alt, keine Task >2 Wochen unverändert aktiv
+- Hinweis: "Inbox-Dateien entsorgen"-Task – Inbox ist leer (nur README), 2 Dateien liegen bereits in `_Archive/`; Task zur manuellen Entscheidung durch Lukes offen gelassen
+
+---
+
+## [2026-05-07] update | Second Brain Optimierung – L0-Umbau
+
+**Was passiert ist:**
+- `CLAUDE.md` zu echtem L0 umgebaut: auf 25 Zeilen gekürzt, zwei Pflichtregeln ganz oben (Session-Start: index.md lesen + Two-Output-Regel), nur dynamische Infos drin
+- `TASKS.md` komplett aktualisiert: Aktiv-Sektion und "Diese Woche"-Sektion befüllt, Calisthenics-Ziel ergänzt, erledigte Tasks nachgepflegt
+- `_System/SCHEMA.md` bereinigt: doppelte "Wer ich bin"-Sektion entfernt, nur Pointer auf Project_Instructions
+- Inbox aufgeräumt: 2 tote Dateien nach `_Archive/` verschoben (Duplikat + Redirect-Stub)
+- `_Archive/`-Ordner neu angelegt
+
+**Warum:**
+- CLAUDE.md war zu groß für L0 und zu klein für L1 – saß zwischen zwei Stühlen
+- Two-Output-Regel war in SCHEMA.md vergraben statt prominent
+- TASKS.md hatte seit Wochen keine aktiven Tasks – Completion Gap direkt im System sichtbar
+- SCHEMA.md und Project_Instructions hatten redundante Infos
+
+---
+
 ## [2026-05-04] lint | Wöchentliche Strukturpflege
 
 **Geprüft:**

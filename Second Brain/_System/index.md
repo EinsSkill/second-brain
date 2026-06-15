@@ -1,7 +1,7 @@
 # 📚 Wiki Index – Lukes' Second Brain
 
 *Katalog aller Seiten. Von Claude gepflegt. Bei jeder Änderung aktualisieren.*
-*Zuletzt aktualisiert: 2026-05-04*
+*Zuletzt aktualisiert: 2026-06-14*
 
 ---
 
@@ -25,6 +25,7 @@
 | [[Business/AzubiPass]] | Premium IHK-Lernzettel via WhatsApp – aktives Side Business |
 | [[Business/KitchenRise]] | Gamifizierte Küchen-Management Android-App (Capacitor/Vite) |
 | [[Business/Worksheet-Projekt]] | Mathe-Portfolio Arbeitsblätter für Lehramt (Auftragsarbeit) |
+| [[Business/Masterplan – AzubiPass & Worksheet-Projekt]] | Kombinierter Masterplan: Worksheet für sofortiges Einkommen, AzubiPass für passives |
 | [[Business/Aktionen/Lukes_Daily]] | Make.com Automation – tägliche Morgenzeitung via Telegram, läuft ✅ |
 
 ---
@@ -88,10 +89,10 @@
 
 ## 📊 Statistik
 
-- **Seiten gesamt:** 39
+- **Seiten gesamt:** 40
 - **Bereiche befüllt:** System, Business, Selbstentwicklung, Ressourcen, Ausbildung, Gaming
 - **Bereiche leer (wachsen mit Nutzung):** Tagesreflexion, Business/Ideen, Business/Recherche
-- **Letzte Aktivität:** 2026-05-04 – Lint: Redirect-Stub `KI Guide – Grundlagen.md` aus Root nach Inbox verschoben
+- **Letzte Aktivität:** 2026-06-14 – Lint: Wöchentliche Strukturpflege, 58 Dateien gescannt, keine Probleme gefunden
 
 ---
 

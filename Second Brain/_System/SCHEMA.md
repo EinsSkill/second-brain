@@ -9,9 +9,7 @@
 
 ## Wer ich bin
 
-Lukes Schmitz, 21, Azubi KfB (1. Jahr) bei NX Logistics in Bedburg.
-Vollständiges Profil: [[_System/Project_Instructions]]
-Psychologische Analyse: [[Selbstentwicklung/Mein_Profil_Psychologische_Analyse]]
+→ [[_System/Project_Instructions]] (vollständiges Profil, Ziele, Psychologie)
 
 ---
 
