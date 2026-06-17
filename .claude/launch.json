@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "caffeundsoda",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["serve", "-p", "4200", "C:\\Users\\Lukes\\Desktop\\caffeundsoda"],
+      "port": 4200
+    }
+  ]
+}
