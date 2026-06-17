@@ -50,7 +50,10 @@
       "Bash(powershell -NoProfile -Command \"powercfg /getactivescheme\")",
       "Bash(powershell -NoProfile -Command \"Get-CimInstance Win32_PhysicalMemory | Select-Object Manufacturer, PartNumber, Speed, Capacity, MemoryType, SMBIOSMemoryType | Format-List\")",
       "Bash(powershell -NoProfile -Command \"Get-CimInstance Win32_PhysicalMemory | Select-Object Speed, ConfiguredClockSpeed | Format-List\")",
-      "Bash(powershell -NoProfile -Command \"Add-Type -AssemblyName System.Windows.Forms; [System.Windows.Forms.Screen]::AllScreens | Select-Object Bounds, Primary | Format-List\")"
+      "Bash(powershell -NoProfile -Command \"Add-Type -AssemblyName System.Windows.Forms; [System.Windows.Forms.Screen]::AllScreens | Select-Object Bounds, Primary | Format-List\")",
+      "Bash(gh api *)",
+      "WebFetch(domain:impeccable.style)",
+      "WebFetch(domain:raw.githubusercontent.com)"
     ]
   }
 }
