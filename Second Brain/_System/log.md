@@ -5,6 +5,17 @@
 
 ---
 
+## [2026-06-17] update | UI Design Workflow eingerichtet
+
+**Was passiert ist:**
+- 4 Design-Skills installiert: taste-skill, emilkowalski-ui, ui-ux-pro-max, impeccable
+- Magic MCP (21st.dev) als globaler MCP-Server hinzugefügt
+- Automatischer 4-Stufen-Workflow in globale CLAUDE.md eingetragen
+- Neue Seite: [[Ressourcen/GitHub-Skills/UI-Design-Workflow]]
+- [[Ressourcen/GitHub-Skills/README]] aktualisiert
+
+---
+
 ## [2026-06-16] update | Vault-Aufräumen & neue Seiten
 
 **Was passiert ist:**

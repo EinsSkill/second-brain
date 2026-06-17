@@ -27,6 +27,29 @@
 
 ---
 
+## Skills in diesem Ordner (seit Juni 2026)
+
+| Skill | Quelle | Für was | Status |
+|---|---|---|---|
+| `taste-skill` | leonxlnx/taste-skill | Anti-Slop UI – verhindert generisches KI-Design | ✅ Installiert |
+| `emilkowalski-ui` | emilkowalski/skill | Emil Kowalskis UI-Philosophie: Animationen, Micro-Interactions, Details | ✅ Installiert |
+| `ui-ux-pro-max` | nextlevelbuilder/ui-ux-pro-max-skill | Design-System-Generator: 67 Stile, 161 Farbpaletten, 57 Schriftpaarungen | ✅ Installiert |
+| `impeccable` | pbakaus/impeccable | 23 Design-Commands (/typeset, /colorize, /animate) für professionelle UIs | ✅ Installiert |
+
+→ Vollständiger Workflow: [[Ressourcen/GitHub-Skills/UI-Design-Workflow]]
+
+---
+
+## Magic MCP (21st.dev)
+
+Zusätzlich installierter MCP-Server der immer im Hintergrund läuft:
+
+- **Was:** Generiert fertige UI-Komponenten (Hero, Navigation, Cards, Modals, ...) auf Knopfdruck
+- **Wie installiert:** `claude mcp add magic --scope user`
+- **Aktivierung:** Läuft automatisch bei jedem Claude Code Start
+
+---
+
 ## Weitere empfehlenswerte Skills (noch nicht heruntergeladen)
 
 | Skill | Quelle | Für was |
