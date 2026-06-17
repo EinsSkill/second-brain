@@ -6,6 +6,12 @@
       "runtimeExecutable": "npx",
       "runtimeArgs": ["serve", "-p", "4200", "C:\\Users\\Lukes\\Desktop\\caffeundsoda"],
       "port": 4200
+    },
+    {
+      "name": "azubipass",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["serve", "-p", "4300", "C:\\Users\\Lukes\\code"],
+      "port": 4300
     }
   ]
 }
