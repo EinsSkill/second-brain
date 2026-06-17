@@ -53,7 +53,31 @@
       "Bash(powershell -NoProfile -Command \"Add-Type -AssemblyName System.Windows.Forms; [System.Windows.Forms.Screen]::AllScreens | Select-Object Bounds, Primary | Format-List\")",
       "Bash(gh api *)",
       "WebFetch(domain:impeccable.style)",
-      "WebFetch(domain:raw.githubusercontent.com)"
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:api.github.com)",
+      "Bash(curl -sL \"https://raw.githubusercontent.com/leonxlnx/taste-skill/main/skills/taste-skill/SKILL.md\" -o \"C:\\\\Users\\\\Lukes\\\\.claude\\\\skills\\\\taste-skill.md\")",
+      "Bash(curl -sL \"https://raw.githubusercontent.com/emilkowalski/skill/main/skills/SKILL.md\" -o \"C:\\\\Users\\\\Lukes\\\\.claude\\\\skills\\\\emilkowalski-ui.md\")",
+      "Bash(curl -sL \"https://raw.githubusercontent.com/emilkowalski/skill/main/skills/emil-design-eng/SKILL.md\" -o \"C:\\\\Users\\\\Lukes\\\\.claude\\\\skills\\\\emilkowalski-ui.md\")",
+      "Bash(curl -sL \"https://raw.githubusercontent.com/nextlevelbuilder/ui-ux-pro-max-skill/main/src/ui-ux-pro-max/templates/base/skill-content.md\" -o \"C:\\\\Users\\\\Lukes\\\\.claude\\\\skills\\\\ui-ux-pro-max.md\")",
+      "Bash(npx --yes impeccable install)",
+      "Bash(claude mcp *)"
     ]
-  }
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PROJECT_DIR}/.claude/skills/impeccable/scripts/hook.mjs\"",
+            "timeout": 5,
+            "statusMessage": "Checking UI changes"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Impeccable design detector: runs after Edit/Write/MultiEdit on UI files and surfaces findings as system reminders."
 }
