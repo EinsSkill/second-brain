@@ -73,7 +73,9 @@
       "Bash(node \"C:/Users/Lukes/Desktop/Second Brain/.claude/skills/impeccable/scripts/context.mjs\")",
       "Bash(node \"C:/Users/Lukes/Desktop/Second Brain/.claude/skills/impeccable/scripts/detect.mjs\" --json \"C:/Users/Lukes/Desktop/caffeundsoda/index.html\")",
       "mcp__Claude_Preview__preview_start",
-      "Bash(ls \"C:\\\\Users\\\\Lukes\\\\\" 2>/dev/null)"
+      "Bash(ls \"C:\\\\Users\\\\Lukes\\\\\" 2>/dev/null)",
+      "Bash(node .claude/skills/impeccable/scripts/hook-admin.mjs ignore-file \"C:/Users/Lukes/code/azubipass-template/base.css\")",
+      "Bash(node .claude/skills/impeccable/scripts/hook-admin.mjs ignore-file \"C:/Users/Lukes/code/azubipass-template/template.html\")"
     ]
   },
   "hooks": {

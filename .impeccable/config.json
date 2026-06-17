@@ -1,0 +1,10 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [
+      "C:/Users/Lukes/code/azubipass-template/base.css",
+      "C:/Users/Lukes/code/azubipass-template/template.html"
+    ],
+    "ignoreValues": []
+  }
+}
