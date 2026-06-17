@@ -28,10 +28,13 @@ Bevor Code geschrieben wird, liest Claude die Situation:
 - Für wen? (Gamer, B2B, Consumer, ...)
 - Welcher Vibe? (gamifiziert, minimalistisch, dunkel, ...)
 
-Dann setzt Claude 3 Dials:
+Dann schlägt Claude 3 Dials vor und **fragt dich zur Bestätigung**, bevor es weitergeht:
+
 - `DESIGN_VARIANCE` – wie experimentell (1–10)
 - `MOTION_INTENSITY` – wie animiert (1–10)
 - `VISUAL_DENSITY` – wie luftig/vollgepackt (1–10)
+
+Du kannst die Werte bestätigen oder einzelne anpassen. **Erst nach deiner Freigabe** geht es weiter mit Schritt 2.
 
 **Anti-Slop-Regel:** Kein KI-lila Gradient, kein zentrierter Hero auf dunklem Mesh, kein Inter-Font auf alles.
 

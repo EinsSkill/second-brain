@@ -61,7 +61,11 @@
       "Bash(curl -sL \"https://raw.githubusercontent.com/emilkowalski/skill/main/skills/emil-design-eng/SKILL.md\" -o \"C:\\\\Users\\\\Lukes\\\\.claude\\\\skills\\\\emilkowalski-ui.md\")",
       "Bash(curl -sL \"https://raw.githubusercontent.com/nextlevelbuilder/ui-ux-pro-max-skill/main/src/ui-ux-pro-max/templates/base/skill-content.md\" -o \"C:\\\\Users\\\\Lukes\\\\.claude\\\\skills\\\\ui-ux-pro-max.md\")",
       "Bash(npx --yes impeccable install)",
-      "Bash(claude mcp *)"
+      "Bash(claude mcp *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(gh pr create --title 'feat: UI Design Workflow mit 4 Skills + Magic MCP' --body ' *)"
     ]
   },
   "hooks": {
