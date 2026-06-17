@@ -72,7 +72,8 @@
       "Skill(impeccable:*)",
       "Bash(node \"C:/Users/Lukes/Desktop/Second Brain/.claude/skills/impeccable/scripts/context.mjs\")",
       "Bash(node \"C:/Users/Lukes/Desktop/Second Brain/.claude/skills/impeccable/scripts/detect.mjs\" --json \"C:/Users/Lukes/Desktop/caffeundsoda/index.html\")",
-      "mcp__Claude_Preview__preview_start"
+      "mcp__Claude_Preview__preview_start",
+      "Bash(ls \"C:\\\\Users\\\\Lukes\\\\\" 2>/dev/null)"
     ]
   },
   "hooks": {
