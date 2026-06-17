@@ -66,7 +66,12 @@
       "Bash(git commit -m ' *)",
       "Bash(git push *)",
       "Bash(gh pr create --title 'feat: UI Design Workflow mit 4 Skills + Magic MCP' --body ' *)",
-      "mcp__magic__21st_magic_component_inspiration"
+      "mcp__magic__21st_magic_component_inspiration",
+      "Bash(mkdir -p \"C:/Users/Lukes/Desktop/caffeundsoda\")",
+      "Skill(impeccable)",
+      "Skill(impeccable:*)",
+      "Bash(node \"C:/Users/Lukes/Desktop/Second Brain/.claude/skills/impeccable/scripts/context.mjs\")",
+      "Bash(node \"C:/Users/Lukes/Desktop/Second Brain/.claude/skills/impeccable/scripts/detect.mjs\" --json \"C:/Users/Lukes/Desktop/caffeundsoda/index.html\")"
     ]
   },
   "hooks": {
